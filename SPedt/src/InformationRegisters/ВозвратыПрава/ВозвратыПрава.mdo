@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="997e93fb-9947-4a95-bade-8988a2533549">
+  <producedTypes>
+    <selectionType typeId="da3322c3-e13a-4586-8e9f-3ba2d0b40d52" valueTypeId="03d575b4-bc3e-4907-b729-46256d65e192"/>
+    <listType typeId="47803c1f-c07c-4845-bf07-8e09b019276f" valueTypeId="8b17db28-4d07-4116-b2e4-29d0422ca8ba"/>
+    <managerType typeId="e30e0157-0e5c-4dbf-bce1-b78b4ab9aee6" valueTypeId="41e19538-7124-4c5b-8165-f008ff97e1e2"/>
+    <recordSetType typeId="b4ac6b10-426e-4f40-b2bb-8cb74282ff0b" valueTypeId="77719c24-517f-419c-8330-9c9be65cbd8d"/>
+    <recordKeyType typeId="e4029104-acfa-4eaa-88a0-e42bba8bc04d" valueTypeId="cea2ab2c-a026-4c5f-882a-4917cad4d565"/>
+    <recordType typeId="1d707342-aa8c-4f22-b39d-abc9d291a05f" valueTypeId="e48403c0-e674-4d5b-81c2-3cbc7399b6f5"/>
+    <recordManagerType typeId="23797f8a-d27f-4154-ad26-fc1d0a22c9cf" valueTypeId="54a4e769-d6da-474c-8288-1cd7a080aaaa"/>
+  </producedTypes>
+  <name>ВозвратыПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возвраты права</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d81905d9-0f8f-4c10-af02-9e352a054454">
+    <name>Срок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="db81e0f7-74cf-4c81-bb2a-6f9cc8a5f775">
+    <name>Участник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Участники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d8e9116-3c72-49e8-9339-e443cf64e8fd">
+    <name>Организатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организатор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организаторы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9165af98-3cc5-4bc0-998c-416aba1faec8">
+    <name>Покупка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Покупки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8554ede9-c05d-4c73-a472-bbe3c627f261">
+    <name>Мегаордер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мегаордер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5d4ae33-eb09-4ef7-a22c-a9578a0716b6">
+  <producedTypes>
+    <managerType typeId="8ff5d979-5662-4968-8469-421d196517cd" valueTypeId="7b8cf219-cf9c-4a02-b84d-047af2228103"/>
+    <valueManagerType typeId="07320181-f197-48d5-b393-a1bc79873a81" valueTypeId="83f3fd8f-22ce-4b56-a3de-7806b70e0765"/>
+    <valueKeyType typeId="826b4bb8-db68-445f-963e-ab89793c7b6b" valueTypeId="86740e6e-296f-4168-b0ef-a8b6c0250063"/>
+  </producedTypes>
+  <name>МестоХраненияВЧекеПоступления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Место хранения в чеке поступления</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

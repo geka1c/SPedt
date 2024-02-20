@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="410dfef1-5909-4b75-8854-91ad2bcc44bd">
+  <producedTypes>
+    <selectionType typeId="cf9d3e2f-9b32-470e-8452-f3558dabff87" valueTypeId="195bd00b-1b4c-4a66-882b-6e9b4370f205"/>
+    <listType typeId="9b423bc2-ce0f-4a05-bef6-4653f1563ddd" valueTypeId="5f5c0ebc-f61b-440b-a297-44b910e36dcf"/>
+    <managerType typeId="40027778-3398-4d91-a01e-3b24b013ac07" valueTypeId="d9c4c451-0054-4e94-9bd9-cb61d5de22c1"/>
+    <recordSetType typeId="2b52aa9e-c500-4065-8ea9-48dfb6505d38" valueTypeId="9bade0cb-d6b7-4dc2-9eaf-f84bc8015bac"/>
+    <recordKeyType typeId="3a18701a-b51c-4819-a179-d8afd36027b0" valueTypeId="f0f5f992-0575-45b3-8024-d792518f655a"/>
+    <recordType typeId="d897b098-8b44-4db9-9f49-5c5c9be27f96" valueTypeId="cf085f94-7206-495d-b566-779567506eb5"/>
+  </producedTypes>
+  <name>ЗаказыТранспортныхКомпанийОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы транспортных компаний оплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="cb0d68ce-7ccd-4bd9-81ab-38f751cc6208">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8fd92d8a-07a5-4c88-9475-a68f852045b0">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5db85a0c-0128-4b8d-b8e6-8b3756b87887">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗаказыТК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="69a927f1-a198-4a97-ab96-9d7ef100ca0f">
+    <name>ТранспортнаяКомпания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная компания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеКомпании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="15a11b9c-a04c-47e5-9c2f-87ed61dda422">
+    <name>ВидОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФормыОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82d0d90a-c613-48cd-ae8b-8f4a8e76028f">
+  <producedTypes>
+    <objectType typeId="ee86fb44-31ff-4789-a5e1-8034950ba3c1" valueTypeId="aafca185-42f4-48e7-946b-7f94ec10f91c"/>
+    <refType typeId="5b0f7e93-ec5c-4ab2-a4e9-16f4a3de2e46" valueTypeId="b35d84a9-f089-45a1-8826-d28039b4ede8"/>
+    <selectionType typeId="74067827-40a0-4f65-bbeb-2117929daaaa" valueTypeId="9a74d3ba-5ef0-4d0f-b7e1-95a741b0d396"/>
+    <listType typeId="d90fd0ef-864b-4b24-babc-07f888cea54b" valueTypeId="fdbf8f45-1c3f-472e-a597-9f82c1f38e54"/>
+    <managerType typeId="2f72f444-40fa-4e08-b462-8b054ac7ebcb" valueTypeId="fe278a36-4a6e-4436-a59c-d3cd0dbecdf1"/>
+  </producedTypes>
+  <name>УстановитьВиновника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить виновника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановитьВиновника.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановитьВиновника.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ОшибочныеЗаказы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="123ae3bf-9326-450f-befd-eb25681b791b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b7a4625d-14b3-4c57-82a4-e1d58272f4d2">
+    <producedTypes>
+      <objectType typeId="598a461c-1464-4fd0-b879-148e4a3ab363" valueTypeId="7e62a11a-2191-44c9-b8bc-5777b6be6c41"/>
+      <rowType typeId="d218ddc8-1405-41da-8b57-d3d4b3588119" valueTypeId="c1cef17a-caf7-4424-9ceb-9998d65fb0e0"/>
+    </producedTypes>
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="281f5611-866d-4f85-8792-35a22c8c7a59">
+      <name>Заказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТипыЗаказа</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="848183b0-b718-487c-9e6f-cd6cbd25c8be">
+      <name>Виновник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Виновник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТочкиРаздачи</types>
+        <types>String</types>
+        <types>CatalogRef.Организаторы</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="58a3ac2d-93c4-4236-a700-f4db1c7480b9">
+      <name>Стоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b45f7157-bd87-44ed-a917-f6b23182bcd9">
+      <name>Организатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организатор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организаторы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4d67435e-a28a-44f7-8c95-c164dc0ca84b">
+      <name>Отправитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТочкиРаздачи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5e423db2-7a23-45ff-9d88-8babb9a80f46">
+      <name>Получатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТочкиРаздачи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f1cb222d-11aa-4446-a076-045ef6367a2d">
+      <name>ВиноватВодитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Виноват водитель</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d7347544-4200-4505-807e-96895f799979">
+      <name>Выбранвариант</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбранвариант</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

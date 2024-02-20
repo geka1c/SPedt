@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0680ac61-8c28-4a0b-b219-cbdaa00edbda">
+  <producedTypes>
+    <managerType typeId="e3c42a6f-7fc9-434b-8809-753a18fa9988" valueTypeId="42b93359-f96d-4b32-ab99-3a2a457886a1"/>
+    <valueManagerType typeId="b806eedb-ef3e-41eb-8baf-96508c356841" valueTypeId="40a01541-b41c-4954-b0b4-310e991ab83f"/>
+    <valueKeyType typeId="2f5def2e-3f8d-4350-8dc0-9796d84d492f" valueTypeId="bb9adeef-cd8f-4e47-8d80-b279d2082c66"/>
+  </producedTypes>
+  <name>ФискальныйЧекНеПечатать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фискальный чек не печатать</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Чек не печатается на бумаге, а отправляется участнику электронной почтой</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

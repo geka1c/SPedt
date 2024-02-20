@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62dd6f19-a55c-4fa5-b986-84776624e301">
+  <producedTypes>
+    <managerType typeId="07ee5b98-6263-4224-80c5-ac2a87a77b61" valueTypeId="e9a29535-2c5f-4321-b913-f3068e6f80a2"/>
+    <valueManagerType typeId="a8af2225-eebb-42dd-b327-eb47dcce4590" valueTypeId="96641573-f0ed-4489-b403-494f1acf8997"/>
+    <valueKeyType typeId="70935af0-9dfc-48c1-a88b-978215b80b70" valueTypeId="2c4512ba-a468-4aa6-b454-1688662e6a51"/>
+  </producedTypes>
+  <name>ВозвратыСтарыйВариантВключить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возвраты старый вариант (включить)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1517907-e687-4ae7-89b9-eeffa9a252d1">
+  <producedTypes>
+    <managerType typeId="b565f6f2-4b32-4f7a-bc74-b50608edaa7c" valueTypeId="b85912f5-2f93-483c-9fe8-a990ce55eea9"/>
+    <valueManagerType typeId="0883d847-b34b-4248-8ba3-9eeb90dd7a8b" valueTypeId="85cc1322-154b-46d9-aedf-bca7d3e73e74"/>
+    <valueKeyType typeId="0fbe1c47-e0be-47d6-9d58-bda4aaedf20a" valueTypeId="44adf1d0-0936-44d9-bc99-c793886b4c2b"/>
+  </producedTypes>
+  <name>СДЭК_НастройкиСоединения</name>
+  <synonym>
+    <key>ru</key>
+    <value>СДЭК настройки соединения</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

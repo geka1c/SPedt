@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb21ffc9-385d-4a95-b633-99e7fdea91cc">
+  <producedTypes>
+    <managerType typeId="4a9058ca-e066-40dd-8420-f0c3cd39979c" valueTypeId="bf0fd8a1-d660-4ae3-8212-8fb67144c84c"/>
+    <valueManagerType typeId="4d73dcb8-89ed-405a-af04-692473f6b8a9" valueTypeId="08298c37-95ce-4cd8-8066-1a66fc68f699"/>
+    <valueKeyType typeId="296ac3cb-edeb-41bb-afce-c4d5d2f02e1d" valueTypeId="7e824cd0-2179-484a-9bfa-9075ab32fd07"/>
+  </producedTypes>
+  <name>ИспользоватьЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заявки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

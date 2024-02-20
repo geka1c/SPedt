@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad73e8e1-0c19-4053-a66f-98c4c2f08953">
+  <producedTypes>
+    <managerType typeId="309e2839-3b6b-4645-b725-081edc9e2fc7" valueTypeId="758ac7c8-246b-4fce-9d4c-15936d1d071f"/>
+    <valueManagerType typeId="46998d2f-1109-4227-9cb3-e73818621984" valueTypeId="499db8ce-2302-4edc-ae92-55b31dcffa2b"/>
+    <valueKeyType typeId="c29c7c3a-07a4-4e25-8ad2-ccffceae9b40" valueTypeId="4a0b46f4-d3f1-4101-b195-396601fbcb8d"/>
+  </producedTypes>
+  <name>мкИмяПубликации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мк имя публикации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Имя публикации базы на web сервере</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

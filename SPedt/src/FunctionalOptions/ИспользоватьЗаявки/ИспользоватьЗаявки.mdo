@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fae18977-8d64-4065-a093-b4c7ab95003b">
+  <name>ИспользоватьЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заявки</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗаявки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПоступленияОтПоставщика</content>
+  <content>Document.СчетКонтрагента</content>
+  <content>Document.ОтчетОДоставке</content>
+  <content>Document.ЗаявкаВТранспортнуюКомпанию</content>
+  <content>DataProcessor.КонтрольДоставкиГрузов</content>
+</mdclass:FunctionalOption>

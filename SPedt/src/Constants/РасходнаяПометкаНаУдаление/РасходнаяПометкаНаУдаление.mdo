@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fb716db-7665-4a7c-a58b-bac785ade94b">
+  <producedTypes>
+    <managerType typeId="d80aa996-c62e-4389-aabd-72d0794ad1c2" valueTypeId="cb70c1dd-8052-407f-826e-13b9d511de14"/>
+    <valueManagerType typeId="f7c54d04-0ea3-403b-b469-d1871deec537" valueTypeId="67564bc7-620a-47ad-8054-ff4a3580200e"/>
+    <valueKeyType typeId="64dc4d25-ad0f-45a3-9fb8-a149842c50e8" valueTypeId="cb2622bf-363d-4a0e-aef7-12a8d85e6850"/>
+  </producedTypes>
+  <name>РасходнаяПометкаНаУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходная пометка на удаление</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Не запрашивать подтверждение при пометке на удаление документа Расходная</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

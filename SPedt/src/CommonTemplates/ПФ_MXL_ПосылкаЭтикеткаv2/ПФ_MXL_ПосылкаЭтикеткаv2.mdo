@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1afa26fe-99d1-489c-87b9-a37341b38297">
+  <name>ПФ_MXL_ПосылкаЭтикеткаv2</name>
+  <synonym>
+    <key>ru</key>
+    <value>П ф MXL посылка этикеткаv2</value>
+  </synonym>
+</mdclass:CommonTemplate>

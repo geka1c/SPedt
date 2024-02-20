@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4db5f35f-9ac1-45b9-aabc-d01e78bc3188">
+  <name>д1Регистры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Показывает заказы хранящиеся дольше указанного количества дней</value>
+  </explanation>
+  <content>InformationRegister.ОбменССайтом</content>
+  <content>AccumulationRegister.НеВыгруженноНаСайт</content>
+  <content>AccumulationRegister.Обмен100СПрн</content>
+  <content>AccumulationRegister.Обмен100СПрн_Ошибки</content>
+  <content>InformationRegister.ДанныеЗаказов</content>
+  <content>InformationRegister.ДанныеЗаказовСайт</content>
+  <parentSubsystem>Subsystem.ОбменДаными</parentSubsystem>
+</mdclass:Subsystem>

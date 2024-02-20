@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c956c6af-dab8-4b15-b702-377832f6e56f">
+  <producedTypes>
+    <objectType typeId="66034aaf-ae26-491a-b154-0c41f692d91b" valueTypeId="3ad88837-38ef-4b33-9448-8103a54301fb"/>
+    <refType typeId="3b685383-8196-40f7-b198-afee0599960e" valueTypeId="f34d5637-f8a2-46a2-9272-8c3ed40e885b"/>
+    <selectionType typeId="497a7481-1405-451b-85cf-12307457e085" valueTypeId="21c4521a-f019-4f59-8e9a-fd12c249db1d"/>
+    <listType typeId="e21c5a2f-0244-4e69-8af1-cfe4682bed03" valueTypeId="51105a25-1de7-4560-b927-ec901c6e771e"/>
+    <managerType typeId="126c2afa-c1c4-45b7-b819-0ca84fca7f32" valueTypeId="f03ab57f-069b-4796-85e4-7cfa343806fe"/>
+  </producedTypes>
+  <name>УстановкаТарифов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка тарифов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаТарифов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаТарифов.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УстановкаТарифов.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.Тарифы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="5d4db445-36f5-4abc-9108-6041c49b149d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="08cf2dd9-d5b0-4a0a-ac93-f5e19ad7b91f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="4a394f1e-358d-4993-b6a9-e4bd008d57fb">
+    <producedTypes>
+      <objectType typeId="3e01b99a-c315-4e2d-a0c7-712f90f7d317" valueTypeId="18d9841b-f169-4c47-a8d8-43a9dccc5075"/>
+      <rowType typeId="41e9bcc9-26bd-41e9-911b-2c70966c2701" valueTypeId="dfeb4ad5-f8e3-40c3-bcae-f81d77f649d3"/>
+    </producedTypes>
+    <name>Тарифы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тарифы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7f6ccae7-3f7b-497c-98fd-efc1aef5600b">
+      <name>Габарит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Габарит</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Габариты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b929ce5-3076-4902-851f-dd66e73eb385">
+      <name>ЦенаХранения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена хранения</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0468eb7f-6fe4-4b29-a1ad-2fe5e9868e83">
+      <name>СрокХранения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок хранения</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d1f3039f-9f41-440d-9108-6d1ef6ac9a39">
+      <name>Штраф</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штраф</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2341b7c7-fd68-4bb3-8db1-77b8482835b9">
+      <name>Заморозка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заморозка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c256135-268e-46ab-8e99-b109a53d044e">
+      <name>Негабарит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Негабарит</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1bcb3a08-9da3-4170-b62a-f37f4cded392">
+      <name>ЦенаЗаКГ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена за КГ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49188997-33b1-4829-be55-67780d24b47e">
+      <name>ЦенаЗаКуб</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена за куб</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4f11255-48fb-4022-8984-69ca535b1eac">
+      <name>Отменен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отменен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="42723dff-f134-4848-8ee0-484d46d0b89a">
+      <name>КодОтправлен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код отправлен</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="23eea415-df1b-4578-b6d6-889a5c18d952">
+      <name>КодПолучен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код получен</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5ff06743-a83f-4504-8d4e-ad034559d238">
+      <name>отправлен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправлен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a136b74a-69c3-4145-bbd6-5f47cd9e4727">
+      <name>СообщениеОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сообщение ошибки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0c63948a-a525-4168-8a60-0be1330be53b">
+      <name>НовыйТариф</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новый тариф</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

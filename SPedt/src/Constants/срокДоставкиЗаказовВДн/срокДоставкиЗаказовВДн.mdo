@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06a02223-4e94-46dc-ab5e-b3a06dbb1b2e">
+  <producedTypes>
+    <managerType typeId="dab28d29-87cf-4876-baec-f9cd4c63d89c" valueTypeId="2fc293e2-236c-4558-a71f-63bab78a6030"/>
+    <valueManagerType typeId="dc256d8b-f529-4a06-a243-7afa2b080a74" valueTypeId="d0d22ad2-c7a4-47f6-9279-cbdbbfec3b1d"/>
+    <valueKeyType typeId="559ea5a2-6829-4945-a33f-41a976d045f0" valueTypeId="1f5fb791-742e-4c0d-86b1-39f4d15cd4d0"/>
+  </producedTypes>
+  <name>срокДоставкиЗаказовВДн</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок доставки заказов в дн</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>сроки доставки заказов из ЕРЦ в дн</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

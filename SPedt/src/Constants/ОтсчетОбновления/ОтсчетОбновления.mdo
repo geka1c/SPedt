@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ea38532-614d-40e4-b0bc-54f0f5039cdd">
+  <producedTypes>
+    <managerType typeId="825532e2-ef10-4467-836a-3232f7e2037d" valueTypeId="3b25323d-b053-48bf-bb71-22839e70a4c6"/>
+    <valueManagerType typeId="fb565b01-f70c-4459-9c4d-9bcddb383a92" valueTypeId="151c75a0-5fca-4385-aa4b-b31f48884153"/>
+    <valueKeyType typeId="a037879a-cb35-4db3-8855-e0a8bf7eddbf" valueTypeId="297c83e1-7375-4aa9-8904-03aaa3a69984"/>
+  </producedTypes>
+  <name>ОтсчетОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отсчет обновления</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="517b116d-095a-4aff-97a7-c975cbb6c027">
+  <producedTypes>
+    <managerType typeId="c75beeab-08be-4146-965b-4419a7e87fed" valueTypeId="65c5c421-dfde-4c09-9c84-7b2b198ff8c2"/>
+    <valueManagerType typeId="fb2e8f71-c3b1-4c36-bac0-fe701bf0a8ba" valueTypeId="ace37623-1381-4bc2-b23d-a644d5317e2b"/>
+    <valueKeyType typeId="28b8fab2-b695-49c3-8d76-28b4669e4c10" valueTypeId="0edb5028-dbe1-4f7e-b999-931fb556aa3d"/>
+  </producedTypes>
+  <name>СтоимостьПередачиЗаказовНаТранзит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость передачи заказов на транзит</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbb1d295-9bf6-4794-b5fb-6f3e394cb19a">
+  <producedTypes>
+    <managerType typeId="aa9dbd21-80cf-4f7e-aaae-1cf15cca8f98" valueTypeId="0de025ab-58ec-4b98-ac36-ecbe7e762828"/>
+    <valueManagerType typeId="430edc5a-f08a-497c-80bf-49956798c573" valueTypeId="4d303a8a-b6e3-4c3f-8304-205e4fddbef3"/>
+    <valueKeyType typeId="55268f2e-9946-4d3a-a33d-855b863254d7" valueTypeId="31ed793f-2147-4b7c-8741-0f4d0f1ad00f"/>
+  </producedTypes>
+  <name>НеПриниматьТранзит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не принимать транзит</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Не принимать заказы для другого пункта выдачи</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

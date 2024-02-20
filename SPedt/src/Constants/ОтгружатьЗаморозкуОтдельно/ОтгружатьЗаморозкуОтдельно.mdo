@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="555439ad-08f1-424c-ac2a-8107eae620b2">
+  <producedTypes>
+    <managerType typeId="30a39370-b575-4f73-ac03-afb25414a1f7" valueTypeId="78c2f3d0-4ed2-4ca1-bec5-36e3e4db03d0"/>
+    <valueManagerType typeId="80a7c134-13bb-46dc-8b64-5b1cf4fb1d9f" valueTypeId="1dd2169a-5f5a-43af-8847-882f03a5d6b1"/>
+    <valueKeyType typeId="9b76477c-cdb0-4101-bb70-4cc6b877fc2d" valueTypeId="c9c8e5f8-59da-4c1e-8b51-59e304075819"/>
+  </producedTypes>
+  <name>ОтгружатьЗаморозкуОтдельно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отгружать заморозку отдельно</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Заказы габаритов с признаком заморозка отгружаются отдельным документом. Сразу на все пункты выдачи. А при отгрузке обычных заказов зморозка не добовляется в документ выдача транзита.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

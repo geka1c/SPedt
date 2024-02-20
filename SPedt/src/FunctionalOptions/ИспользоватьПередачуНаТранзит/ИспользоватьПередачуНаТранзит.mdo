@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89399b19-2c2d-4413-af03-633b9dd5199b">
+  <name>ИспользоватьПередачуНаТранзит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать передачу на транзит</value>
+  </synonym>
+  <location>Constant.ИспользоватьПередачуЗаказовНаТранзит</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗаказыДляТранзита</content>
+  <content>Report.ВзаиморасчетыСОрганизаторами</content>
+</mdclass:FunctionalOption>

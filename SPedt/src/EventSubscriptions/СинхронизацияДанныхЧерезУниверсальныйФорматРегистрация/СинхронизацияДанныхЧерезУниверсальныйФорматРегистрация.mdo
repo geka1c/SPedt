@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="713ff1d4-e4de-4f6f-beee-2c4ac0edc363">
+  <name>СинхронизацияДанныхЧерезУниверсальныйФорматРегистрация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных через универсальный формат регистрация</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.МестаХранения</types>
+    <types>CatalogObject.ТочкиРаздачи</types>
+    <types>CatalogObject.Габариты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбработчикиПодкисокНаСобытия.СинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияПередЗаписью</handler>
+</mdclass:EventSubscription>

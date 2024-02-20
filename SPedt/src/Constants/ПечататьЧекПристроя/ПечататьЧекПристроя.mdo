@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10a6e770-dad6-422a-9a6c-a1e265fe9db3">
+  <producedTypes>
+    <managerType typeId="0f6bd10d-1c14-4dbb-8a82-37919213ae9e" valueTypeId="26a24338-b72a-4414-9df6-089a72d474f1"/>
+    <valueManagerType typeId="3a16bce5-5680-4112-9cfd-faadf6d7fd19" valueTypeId="9ceec3fb-155a-4957-a8f6-354f04feeb32"/>
+    <valueKeyType typeId="0860c6c7-2eb0-403c-ade2-ccd858a461ed" valueTypeId="f6b2ae4d-4690-4995-be96-a9c0e2fb871b"/>
+  </producedTypes>
+  <name>ПечататьЧекПристроя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатать чек пристроя</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Если на пункте приема Пристроя и заявок на доставку имеется принтер этикеток, не нужно привязывать заранее распечатанные стикеры. Стикер для заказа будет получен с сайта и распечатан в момент сдачи заказа участником отправителем</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37c4c6fa-7d06-4836-a0f6-a86eb77487c9">
+  <producedTypes>
+    <selectionType typeId="a458e30b-2b72-444e-b2ca-cc20b877f736" valueTypeId="848494c6-ce41-4021-8557-73452ba15674"/>
+    <listType typeId="4ad8a94d-4549-4cd8-9e70-e62008b351d4" valueTypeId="ff10c23e-dc4f-4088-afad-13e09e8de7a4"/>
+    <managerType typeId="e22ba86d-2a28-4d8f-b4a4-c83fd7559a5b" valueTypeId="d9f780fc-d33b-4f2d-9afe-26b639893c10"/>
+    <recordSetType typeId="35ea2fbf-016d-4d32-a684-02fe33079eb1" valueTypeId="f313bdda-d2fc-4ce3-9c7c-7c5df5bb1758"/>
+    <recordKeyType typeId="62f9d731-d975-4bf4-b33a-fedebbc20aba" valueTypeId="ef1c3340-9999-4c16-b4fd-438f33c98f75"/>
+    <recordType typeId="7ae6555b-ba84-441b-a284-3672a8b75aed" valueTypeId="1e0a619d-13fe-4c27-9941-ecbb57be9626"/>
+    <recordManagerType typeId="5d8589c2-617c-4a5e-bf34-a3c64c6a951c" valueTypeId="4002450d-4e5a-4f14-96a0-239f38f5939e"/>
+  </producedTypes>
+  <name>ОборотнаяТара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборотная тара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c03109ac-0dca-4eec-a385-3716cf3701dc">
+    <name>Коробка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коробка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Коробки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6b0c57e7-a25e-4e5d-9050-eb949cf97013">
+    <name>Тара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тара</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОборотнаяТара</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

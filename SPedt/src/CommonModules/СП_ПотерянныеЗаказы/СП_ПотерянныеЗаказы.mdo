@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2aca4879-1e3b-48a5-9650-fa5a2cd50b43">
+  <name>СП_ПотерянныеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>С п потерянные заказы</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

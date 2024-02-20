@@ -1,0 +1,141 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="mobileApi">
+	<objectType name="appointment">
+		<property name="id" type="xs:string"/>
+		<property name="name" type="xs:string"/>
+		<property name="type" type="xs:string"/>
+	</objectType>
+	<objectType name="listInvoice">
+		<property xmlns:d3p1="mobileApi" name="Invoice" type="d3p1:listInvoice.Invoice" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="listInvoice.Invoice">
+		<property name="number" type="xs:string"/>
+		<property name="date" type="xs:dateTime"/>
+		<property xmlns:d3p1="mobileApi" name="appointment" type="d3p1:appointment"/>
+		<property name="barcode" type="xs:string"/>
+		<property xmlns:d3p1="mobileApi" name="orders" type="d3p1:listInvoice.Invoice.orders" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="sum" type="xs:float" lowerBound="0" nillable="true"/>
+		<property name="count" type="xs:float" lowerBound="0" nillable="true"/>
+		<property name="posting" type="xs:boolean"/>
+	</objectType>
+	<objectType name="listInvoice.Invoice.orders">
+		<property xmlns:d3p1="mobileApi" name="orderString" type="d3p1:listInvoice.Invoice.orders.orderString" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="listInvoice.Invoice.orders.orderString">
+		<property name="number" type="xs:integer"/>
+		<property name="selected" type="xs:boolean"/>
+		<property xmlns:d3p1="mobileApi" name="order" type="d3p1:object.order"/>
+		<property xmlns:d3p1="mobileApi" name="tariff" type="d3p1:object.tariff"/>
+		<property xmlns:d3p1="mobileApi" name="cell" type="d3p1:object.cell"/>
+		<property xmlns:d3p1="mobileApi" name="appointment" type="d3p1:appointment" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="listUser">
+		<property xmlns:d3p1="mobileApi" name="list" type="d3p1:listUser.list" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property name="all" type="xs:integer"/>
+		<property name="count" type="xs:integer"/>
+	</objectType>
+	<objectType name="listUser.list">
+		<property xmlns:d3p1="mobileApi" name="user" type="d3p1:object.user"/>
+		<property name="count" type="xs:integer" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="catalog.tariffs">
+		<property xmlns:d3p1="mobileApi" name="tariff" type="d3p1:object.tariff" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="catalog.cells">
+		<property xmlns:d3p1="mobileApi" name="cell" type="d3p1:object.cell" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="catalog.branchs">
+		<property xmlns:d3p1="mobileApi" name="branch" type="d3p1:object.branch" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="object.user">
+		<property name="id" type="xs:string"/>
+		<property name="name" type="xs:string" nillable="true"/>
+		<property name="phone" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="object.order">
+		<property xmlns:d3p1="mobileApi" name="user" type="d3p1:object.user" lowerBound="0" nillable="true"/>
+		<property name="name" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="barcode" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="org" type="d3p1:object.user" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="object.tariff">
+		<property name="id" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="name" type="xs:string"/>
+		<property name="barcode" type="xs:string"/>
+		<property name="oversize" type="xs:boolean" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="object.cell">
+		<property name="id" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="name" type="xs:string"/>
+		<property name="barcode" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="isGroup" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="idGroup" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="object.branch">
+		<property name="id" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="name" type="xs:string"/>
+		<property name="barcode" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="adress" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="city" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="paramPostIncome">
+		<property xmlns:d3p1="mobileApi" name="strDoc" type="d3p1:paramPostIncome.strDoc" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="paramPostIncome.strDoc">
+		<property name="num" type="xs:string"/>
+		<property name="date" type="xs:dateTime"/>
+		<property name="barcodeGroup" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="str" type="d3p1:paramPostIncome.strDoc.Str" lowerBound="0" upperBound="-1"/>
+		<property name="barcodeСontainer" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="paramPostIncome.strDoc.Str">
+		<property name="tarifId" type="xs:string"/>
+		<property name="cellsId" type="xs:string"/>
+		<property name="barcode" type="xs:string"/>
+		<property name="numStr" type="xs:integer"/>
+		<property name="weight" type="xs:integer"/>
+		<property name="V" type="xs:integer"/>
+		<property name="separate" type="xs:boolean"/>
+	</objectType>
+	<objectType name="responce.PostIncome">
+		<property name="result" type="xs:boolean"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="str" type="d3p1:responce.PostIncome.str" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="responce.PostIncome.str">
+		<property name="num" type="xs:string"/>
+		<property name="date" type="xs:dateTime"/>
+		<property name="result" type="xs:boolean"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="responce.сlientRegistration">
+		<property name="result" type="xs:boolean"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="branchId" type="xs:integer"/>
+	</objectType>
+	<objectType name="responce.PostInvoice">
+		<property name="result" type="xs:boolean"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="Invoice" type="d3p1:listInvoice.Invoice" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="responce.historyOrder">
+		<property xmlns:d3p1="mobileApi" name="str" type="d3p1:responce.historyOrder.str" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="responce.historyOrder.str">
+		<property xmlns:d3p1="mobileApi" name="cell" type="d3p1:object.cell" lowerBound="0" nillable="true"/>
+		<property name="date100sp" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property name="date1C" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="order" type="d3p1:object.order" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="group" type="d3p1:object.order" lowerBound="0" nillable="true"/>
+		<property name="oversize" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="orgFee" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="separate" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="party" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="branch" type="d3p1:object.branch" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="branchPrev" type="d3p1:object.branch" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="branchNext" type="d3p1:object.branch" lowerBound="0" nillable="true"/>
+		<property name="sum" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="typeHistory" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="tranzit" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="mobileApi" name="user" type="d3p1:object.user" lowerBound="0" nillable="true"/>
+	</objectType>
+</package>

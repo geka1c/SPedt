@@ -1,0 +1,45 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.100sp.ru/mobileApi1/2.0.0.0">
+	<import namespace="http://www.1c.ru/SSL/Exchange/Message"/>
+	<valueType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="СправочникСсылка.МестаХранения" base="d2p1:Ref"/>
+	<valueType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="СправочникСсылка.Габариты" base="d2p1:Ref"/>
+	<valueType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="ДокументСсылка.СинхронизацияМобильноеПриложение" base="d2p1:Ref"/>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.МестаХранения" base="d2p1:Object">
+		<property xmlns:d3p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="КлючевыеСвойства" type="d3p1:КлючевыеСвойстваМестаХранения"/>
+		<property name="Наименование" type="xs:string"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Габариты" base="d2p1:Object">
+		<property xmlns:d3p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="КлючевыеСвойства" type="d3p1:КлючевыеСвойстваГабариты"/>
+		<property name="Наименование" type="xs:string"/>
+		<property name="НеГабарит" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Документ.СинхронизацияМобильноеПриложение">
+		<property xmlns:d3p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="КлючевыеСвойства" type="d3p1:КлючевыеСвойстваСинхронизацияМобильноеПриложение"/>
+		<property name="мкНомер" type="xs:string" lowerBound="0"/>
+		<property name="мкДата" type="xs:dateTime"/>
+	</objectType>
+	<objectType name="КлючевыеСвойстваМестаХранения">
+		<property xmlns:d3p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="Ссылка" type="d3p1:СправочникСсылка.МестаХранения"/>
+		<property name="Код" type="xs:string"/>
+	</objectType>
+	<objectType name="КлючевыеСвойстваГабариты">
+		<property xmlns:d3p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="Ссылка" type="d3p1:СправочникСсылка.Габариты"/>
+		<property name="Код" type="xs:string"/>
+	</objectType>
+	<objectType name="КлючевыеСвойстваСинхронизацияМобильноеПриложение">
+		<property xmlns:d3p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="Ссылка" type="d3p1:ДокументСсылка.СинхронизацияМобильноеПриложение"/>
+		<property name="Номпер" type="xs:string"/>
+		<property name="Дата" type="xs:dateTime"/>
+	</objectType>
+	<objectType name="ЛюбаяСсылка">
+		<property name="СсылкаНаОбъект">
+			<typeDef xsi:type="ObjectType">
+				<property xmlns:d5p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="МестаХраненияСсылка" type="d5p1:СправочникСсылка.МестаХранения" lowerBound="0"/>
+				<property xmlns:d5p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="ГабаритыСсылка" type="d5p1:СправочникСсылка.Габариты" lowerBound="0"/>
+				<property xmlns:d5p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="СинхронизацияМобильноеПриложениеСсылка" type="d5p1:ДокументСсылка.СинхронизацияМобильноеПриложение" lowerBound="0"/>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="УдалениеОбъекта">
+		<property xmlns:d3p1="http://www.100sp.ru/mobileApi1/2.0.0.0" name="СсылкаНаОбъект" type="d3p1:ЛюбаяСсылка"/>
+	</objectType>
+</package>

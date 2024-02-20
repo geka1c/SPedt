@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0af05c54-783a-4276-b2f0-5406a5341057">
+  <producedTypes>
+    <objectType typeId="b74d1c49-de01-44fa-bc3e-ccde1d04522d" valueTypeId="b26505c7-fb51-4d07-8776-526965de553c"/>
+    <managerType typeId="8bf49070-c799-40c6-8c29-1e2d4d443661" valueTypeId="30cb4642-11fa-4abf-8d3a-453b8fb9683b"/>
+  </producedTypes>
+  <name>ВозмещениеЗаРазборНаЕРЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возмещение за разбор на ЕРЦ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ВозмещениеЗаРазборНаЕРЦ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <explanation>
+    <key>ru</key>
+    <value>суммы возмещаемые за разбор на ЕРЦ детальный.</value>
+  </explanation>
+  <templates uuid="5f895582-945f-479c-ae39-fc108e0f1d7a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

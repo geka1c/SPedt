@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="284c7d89-5b5c-4884-86c6-285b86f7304a">
+  <producedTypes>
+    <objectType typeId="bed94550-2d5c-4bc2-93a0-623555e12dc9" valueTypeId="e732c625-4a72-4d8b-85c7-2ab430e38f19"/>
+    <refType typeId="7a00b428-65b3-47de-8240-158b133043e2" valueTypeId="d11cc2c8-f26a-4f33-a671-6740cb88bf29"/>
+    <selectionType typeId="5f1f8854-0794-47ee-95d7-6ee49fa6066a" valueTypeId="88e2feaf-4d1a-4048-b987-3b36a60b3dc7"/>
+    <listType typeId="ad159b4f-c174-4e22-afdf-b8fc641be96d" valueTypeId="58947a40-2cbf-4ae6-be9e-45b73024ebff"/>
+    <managerType typeId="75b14887-48bb-4805-a5eb-02f5c8f2e28f" valueTypeId="14c7119b-1428-4da1-8c08-76b92725d1a9"/>
+  </producedTypes>
+  <name>ПередачаЗаказовПочтаРоссии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача заказов почта россии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПередачаЗаказовПочтаРоссии.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПередачаЗаказовПочтаРоссии.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ЗаказыТранспортныхКомпаний</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="9e4df681-2acd-4bd3-8c60-852e39e1cfe4">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="5b010ffe-a591-47e8-a143-47347517ff22">
+    <producedTypes>
+      <objectType typeId="c4aab5d5-8202-444b-a7de-b12d9fb19706" valueTypeId="c6e94f2b-a904-4600-880c-9031387fe7f7"/>
+      <rowType typeId="74b7adc9-47d9-4e5a-b232-2251743a6919" valueTypeId="e111520c-19ef-4671-8e14-87a99c1752fe"/>
+    </producedTypes>
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+    <attributes uuid="90572c2b-4d7b-427e-b33e-3127539e7ae2">
+      <name>Заказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЗаказыТК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="66aaaf09-296a-4df3-9aa7-943c0cb78509">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

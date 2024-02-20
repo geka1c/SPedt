@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01812a08-7032-49e8-a6b1-3ab81199b6b4">
+  <producedTypes>
+    <objectType typeId="4e48f919-a767-48a0-8b68-658cda74a118" valueTypeId="b89f92a4-b34a-4540-972a-0652b04d1d0a"/>
+    <managerType typeId="d042e8a8-4763-4492-b4f4-01830e529b97" valueTypeId="2ad01898-4f5f-4eb5-9538-b164672ac2cc"/>
+  </producedTypes>
+  <name>ИсторияЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>История заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИсторияЗаказа.Form.Форма</defaultForm>
+  <forms uuid="c5041c38-0f72-49a8-9312-47d275a1f030">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

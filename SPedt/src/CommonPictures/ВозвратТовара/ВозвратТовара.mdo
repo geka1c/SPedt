@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8ee3064-a0d3-4202-a386-bf4652eeef4a">
+  <name>ВозвратТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат товара</value>
+  </synonym>
+  <transparentPixel>
+    <x>132</x>
+    <y>230</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

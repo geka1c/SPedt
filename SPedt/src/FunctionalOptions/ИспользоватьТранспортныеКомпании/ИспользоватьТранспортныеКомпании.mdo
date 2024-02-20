@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67bb0dc5-634d-4793-96a9-93a70326337c">
+  <name>ИспользоватьТранспортныеКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать транспортные компании</value>
+  </synonym>
+  <location>Constant.ИспользоватьТранспортныеКомпании</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтправлениеТранзита</content>
+  <content>Document.ЗапросыГруппДоставки</content>
+  <content>Document.ЗапросАдресов</content>
+  <content>Document.СоздатьГруппуДоставки</content>
+  <content>Document.ОбъединениеГруппДоставки</content>
+  <content>Catalog.УслугиDPD</content>
+  <content>Catalog.Города_ДеловыеЛинии</content>
+  <content>Catalog.ГородаBoxBerry</content>
+  <content>Catalog.ГородаСДЭК</content>
+  <content>Catalog.ТарифыТК</content>
+  <content>Catalog.ПВПочтовыхКомпаний</content>
+  <content>Catalog.ТранспортныеКомпании</content>
+  <content>DataProcessor.ОбъединеннаяДоставкаГрузов</content>
+  <content>Catalog.ПунктыВыдачиBoxBerry</content>
+  <content>Document.СдэкИнеграция</content>
+  <content>CommonCommand.ЗаказыТК</content>
+  <content>Report.ВедомостьЗаказовТК</content>
+  <content>CommonCommand.ПанельОтчетовТранспортныеКомпании</content>
+  <content>Subsystem.ТранспортныеКомпании</content>
+</mdclass:FunctionalOption>

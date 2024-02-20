@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8357076-0299-4719-a8b5-b1fc1b2792eb">
+  <producedTypes>
+    <managerType typeId="ee2e4016-6586-4492-a979-af677f907634" valueTypeId="0a2acabe-d0f7-4307-a050-2bf5d930af1b"/>
+    <valueManagerType typeId="b1f21a40-defe-43ff-b576-3b483b195e91" valueTypeId="2a346dc3-878d-4b8e-939d-12303f6d7fd2"/>
+    <valueKeyType typeId="da6a2ec8-5675-4f2f-b6e5-e4f29e6309ed" valueTypeId="2d96ce38-b267-46b1-bf78-c89f8d03f750"/>
+  </producedTypes>
+  <name>ОборотнаяТараПунктВыдачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборотная тара пункт выдачи</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ТочкиРаздачи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>При добавлении тары в докумете разбор коробки. Автоматически заполняется пункт выдачи назначения</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

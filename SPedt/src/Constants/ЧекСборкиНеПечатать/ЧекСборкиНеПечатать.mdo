@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab8d9045-f56e-4e51-8a6e-1319e380a94c">
+  <producedTypes>
+    <managerType typeId="f583cc4b-11b3-4fa2-9b81-2f5d203461e5" valueTypeId="92d1d691-80e6-4bc7-8e34-bbe0e5c0aa83"/>
+    <valueManagerType typeId="13017656-0799-4ebf-9994-17742b55eac3" valueTypeId="64407e9d-85d3-4584-9191-3f2f3c921618"/>
+    <valueKeyType typeId="753a537d-b7ea-477b-934d-4b959bcfec72" valueTypeId="6ebc8d21-d522-4164-a1bb-c1decc3290a3"/>
+  </producedTypes>
+  <name>ЧекСборкиНеПечатать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чек сборки не печатать</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>При закрытии документа Расходная чек не пкчатается.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

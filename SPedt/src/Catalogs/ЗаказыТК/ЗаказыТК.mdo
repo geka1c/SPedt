@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b876ef3-621e-48a8-a20d-14395ba53e25">
+  <producedTypes>
+    <objectType typeId="1761c1e7-729b-42d7-93a2-b5b93300b9ae" valueTypeId="574000fa-ce3b-4cfb-9ffd-3debcb7f54c4"/>
+    <refType typeId="8218b2b5-7d9b-494f-bf9f-60eb4e073f3b" valueTypeId="5c28d843-3bd5-4318-8e17-800689141421"/>
+    <selectionType typeId="2c2fb0e9-7674-47ab-97e8-9a7f4c5d1027" valueTypeId="7cdaf05c-5f09-474d-9c0d-33f20d174759"/>
+    <listType typeId="c6e7b478-a8b4-4084-b90d-eab9906cdad5" valueTypeId="fbd02814-03e6-44b7-a173-cc2581e629e7"/>
+    <managerType typeId="61346412-3f72-446f-b840-afd57a582f2f" valueTypeId="ee1b9b34-081f-478a-b5d5-092ee99fb75b"/>
+  </producedTypes>
+  <name>ЗаказыТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы ТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗаказыТК.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗаказыТК.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ТранспортныеКомпании</owners>
+  <codeLength>20</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

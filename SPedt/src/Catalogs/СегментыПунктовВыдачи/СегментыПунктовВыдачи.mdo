@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e724b344-193e-472c-8881-4bb1e3b0dae4">
+  <producedTypes>
+    <objectType typeId="6646ce65-0613-49d4-91d1-4a1d4684a7b7" valueTypeId="352b5b77-3b39-406f-952b-a5fd76e68470"/>
+    <refType typeId="14b8ffad-182a-41cd-a318-e6ff8cc25e54" valueTypeId="1847ad6b-c9e2-4464-a1e8-d42e53eb5831"/>
+    <selectionType typeId="f2124dc3-f06d-4e1c-92c3-59273f5ec544" valueTypeId="d6b48447-98d3-4d62-a93a-09643f099278"/>
+    <listType typeId="370648dc-a064-40aa-a980-c74086ca7c45" valueTypeId="bb94cf57-6ff2-428f-9b9e-ce964afc2595"/>
+    <managerType typeId="bab9a187-dd5f-407b-9279-e1463dd37328" valueTypeId="735a2ed1-d118-458c-a3e3-060a3dfdb4b8"/>
+  </producedTypes>
+  <name>СегментыПунктовВыдачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты пунктов выдачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СегментыПунктовВыдачи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СегментыПунктовВыдачи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cf5c6bdd-f67e-4014-afaf-e4df277d43fa">
+    <name>ТочкаТранзита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка транзита</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТочкиРаздачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="18277b71-6098-4b20-9486-6d8794e740ae">
+    <producedTypes>
+      <objectType typeId="12bd6d08-5cfb-4108-98cc-266750fbe4c4" valueTypeId="20892893-322d-4526-9321-77f27de50994"/>
+      <rowType typeId="ab156efd-e145-418c-9c7c-856fb3d40d05" valueTypeId="c86f97a9-78d9-4554-83e9-acbc2725de25"/>
+    </producedTypes>
+    <name>ПунктыВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункты выдачи</value>
+    </synonym>
+    <attributes uuid="35369866-c51b-4d13-acb2-b949e8d61224">
+      <name>ПунктВыдачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт выдачи</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТочкиРаздачи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

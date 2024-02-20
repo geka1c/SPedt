@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодЗаказа</dataPath>
+			<field>КодЗаказа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Город</dataPath>
+			<field>Город</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Покупка</dataPath>
+			<field>Покупка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Участник</dataPath>
+			<field>Участник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаДоставки</dataPath>
+			<field>ГруппаДоставки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа доставки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЗаказов</dataPath>
+			<field>КоличествоЗаказов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество заказов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоГрупп</dataPath>
+			<field>КоличествоГрупп</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество групп</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Коробки.Ссылка КАК ГруппаДоставки
+ПОМЕСТИТЬ НеОтправленныеГруппы
+ИЗ
+	Справочник.Коробки КАК Коробки
+ГДЕ
+	Коробки.ВидСтикера = ЗНАЧЕНИЕ(Перечисление.ВидыСтикеров.ГруппаДоставки)
+	И НЕ(Коробки.Ссылка.СтатусГруппыДоставки = ЗНАЧЕНИЕ(Перечисление.СтатусыГруппыДоставки.finished)
+				ИЛИ Коробки.Ссылка.СтатусГруппыДоставки = ЗНАЧЕНИЕ(Перечисление.СтатусыГруппыДоставки.empty))
+
+ИНДЕКСИРОВАТЬ ПО
+	ГруппаДоставки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КоробкиСостав.Ссылка КАК Ссылка,
+	КоробкиСостав.КодЗаказа КАК КодЗаказа,
+	КоробкиСостав.Цена КАК Цена,
+	КоробкиСостав.Участник КАК Участник,
+	КоробкиСостав.Покупка КАК Покупка
+ПОМЕСТИТЬ Заказы
+ИЗ
+	Справочник.Коробки.Состав КАК КоробкиСостав
+ГДЕ
+	КоробкиСостав.Ссылка В
+			(ВЫБРАТЬ
+				НеОтправленныеГруппы.ГруппаДоставки КАК ГруппаДоставки
+			ИЗ
+				НеОтправленныеГруппы КАК НеОтправленныеГруппы)
+
+ИНДЕКСИРОВАТЬ ПО
+	Участник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Заказы.Ссылка КАК ГруппаДоставки,
+	МАКСИМУМ(АдресаЗаказовСрезПоследних.Город) КАК Город,
+	Заказы.Ссылка.УчастникГД КАК Участник,
+	1 КАК КоличествоЗаказов,
+	Заказы.Покупка КАК Покупка,
+	Заказы.КодЗаказа КАК КодЗаказа
+ПОМЕСТИТЬ ЗаказыСКоличеством
+ИЗ
+	Заказы КАК Заказы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.АдресаЗаказов.СрезПоследних(
+				,
+				Участник В
+					(ВЫБРАТЬ
+						Заказы.Участник КАК Участник
+					ИЗ
+						Заказы КАК Заказы)) КАК АдресаЗаказовСрезПоследних
+		ПО Заказы.Участник = АдресаЗаказовСрезПоследних.Участник
+
+СГРУППИРОВАТЬ ПО
+	Заказы.Ссылка,
+	Заказы.Ссылка.УчастникГД,
+	Заказы.Покупка,
+	Заказы.КодЗаказа
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЗаказыСКоличеством.ГруппаДоставки КАК ГруппаДоставки,
+	ЗаказыСКоличеством.Город КАК Город,
+	ЗаказыСКоличеством.Участник КАК Участник,
+	ЗаказыСКоличеством.КоличествоЗаказов КАК КоличествоЗаказов,
+	1 КАК КоличествоГрупп,
+	ЗаказыСКоличеством.Покупка КАК Покупка,
+	ЗаказыСКоличеством.КодЗаказа КАК КодЗаказа
+ПОМЕСТИТЬ врем
+ИЗ
+	ЗаказыСКоличеством КАК ЗаказыСКоличеством
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	врем.ГруппаДоставки КАК ГруппаДоставки,
+	врем.Город КАК Город,
+	врем.Участник КАК Участник,
+	СУММА(врем.КоличествоГрупп) КАК КоличествоГрупп,
+	врем.ГруппаДоставки.Количество КАК КоличествоЗаказов
+ИЗ
+	врем КАК врем
+
+СГРУППИРОВАТЬ ПО
+	врем.ГруппаДоставки,
+	врем.Город,
+	врем.Участник</query>
+	</dataSet>
+	<totalField>
+		<dataPath>КоличествоГрупп</dataPath>
+		<expression>Сумма(КоличествоГрупп)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоЗаказов</dataPath>
+		<expression>Сумма(КоличествоЗаказов)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ЗаказыТКПоГородам</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Заказы ТК по городам</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СистемныеПоля.НомерПоПорядкуВГруппировке</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Город</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГруппаДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Участник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоЗаказов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоГрупп</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ГруппаДоставки.ТочкаНазначения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>173272fe-a53d-4fb6-a40a-da9cdc608542</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ГруппаДоставки.ТочкаНазначения</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Город</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dfd506c-1f9e-40b4-9245-bfcce9af6f9a">
+  <producedTypes>
+    <managerType typeId="dfad9ee1-fb2e-4023-9405-e6f9a802eacb" valueTypeId="55c018d6-0466-4eaf-ad1a-cbebd7b23929"/>
+    <valueManagerType typeId="1034fc78-d5ad-43d0-a2f9-c3086086f416" valueTypeId="d5d023d3-559a-48b4-9b80-992051c120e7"/>
+    <valueKeyType typeId="aa9d9118-29c7-41f9-83e4-2be554861b10" valueTypeId="11253f59-b224-4042-a8f0-85beb903580c"/>
+  </producedTypes>
+  <name>ТарифПередачиЗаказовНаТранзит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тариф передачи заказов на транзит</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Габариты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d77d3b99-4e3d-4b68-a5e1-0abf81164469">
+  <producedTypes>
+    <objectType typeId="84676de7-35db-4c25-a1ea-7189e56dc68f" valueTypeId="93e9f8ae-335a-41a2-8f38-6d9d93832e28"/>
+    <managerType typeId="30183ed4-a694-41f2-8a29-e339804d8b2e" valueTypeId="df3605f3-0f40-46a9-b3b8-23db94f0df91"/>
+  </producedTypes>
+  <name>ОтчетСсылкиНаЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет ссылки на заказы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетСсылкиНаЗаказы.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетСсылкиНаЗаказы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ОтчетСсылкиНаЗаказы.Form.ФормаНастроек</defaultSettingsForm>
+  <defaultVariantForm>Report.ОтчетСсылкиНаЗаказы.Form.ФормаВарианта</defaultVariantForm>
+  <forms uuid="da2c0e8b-39c1-4878-8ef4-5ce73e2c6d6b">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="272cad7a-62df-43fd-85a5-4f0cfc3fd306">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38374d62-a48e-4ea7-9886-98cf77c7281d">
+    <name>ФормаВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма варианта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7016bc39-7fa1-47ff-819d-6ab22e155b72">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

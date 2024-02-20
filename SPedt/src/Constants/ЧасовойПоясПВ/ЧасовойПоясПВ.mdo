@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="606209b8-cffd-4784-b514-3c5b0556a136">
+  <producedTypes>
+    <managerType typeId="0f2847c8-5caa-4423-9ae9-5205c6493d19" valueTypeId="5a86f87c-1cc3-40f8-9c4c-6bb0fdd245b4"/>
+    <valueManagerType typeId="1df5337d-6ec8-4240-9bf0-972179a72be9" valueTypeId="6fb14fbb-89cd-4ec0-bf0b-2c974c718172"/>
+    <valueKeyType typeId="897cd304-2d35-43ba-9f3f-e722a5b1fec6" valueTypeId="ddd39ea3-9321-4657-b230-0f881383eb86"/>
+  </producedTypes>
+  <name>ЧасовойПоясПВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часовой пояс ПВ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Если указан, то используетс для синхронизации с сайтом.Если нет то используется часовой пояс системы</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

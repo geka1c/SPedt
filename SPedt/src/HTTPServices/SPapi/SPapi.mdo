@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e50e4503-6be2-4933-a5a8-19a90c54a25a">
+  <name>SPapi</name>
+  <synonym>
+    <key>ru</key>
+    <value>SP api</value>
+  </synonym>
+  <comment>SP api - http сервис</comment>
+  <rootURL>SPapi</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ea646a13-c5cd-4c33-9dbe-d2939b6d1db3">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="7a21c003-e8e3-427e-b8ff-f8fc115761a7">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ОсновнойGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="60edb0bf-7479-4963-9814-bd3f8b38736a">
+    <name>Тестовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый</value>
+    </synonym>
+    <template>/V1/{ИмяМетода}</template>
+    <methods uuid="46f69d11-c008-40c1-802b-e00ad512bede">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ТестовыйGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

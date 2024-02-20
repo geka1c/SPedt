@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e209d88e-e170-41c0-9ee3-0cbc355cdb4a">
+  <name>СтоСПОбмен_ТарифыИмпорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сто СПОбмен тарифы импорт</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

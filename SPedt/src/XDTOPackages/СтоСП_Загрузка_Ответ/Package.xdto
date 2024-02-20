@@ -1,0 +1,276 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.100sp.ru/api/distributor/back">
+	<objectType name="distributors">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="auth" type="d3p1:distributors.auth" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="dataByDates" type="d3p1:distributors.dataByDates" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="publicDistributors" type="d3p1:distributors.publicDistributors" lowerBound="0" nillable="true"/>
+		<property name="apiVersion" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="tariffs" type="d3p1:distributors.tariffs" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="usersPhones" type="d3p1:distributors.usersPhones" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="reusableStickerLogs" type="d3p1:distributors.reusableStickerLogs" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="distributorTimetable" type="d3p1:distributors.distributorTimetable" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="distributorHolidays" type="d3p1:distributors.distributorHolidays" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="megaordersPrices" type="d3p1:distributors.megaordersPrices" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.tariffs" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="tariff" type="d3p1:distributors.tariffs.tariff" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.tariffs.tariff" ordered="false">
+		<property name="id" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="name" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="time" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="forfeit" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="frost" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="oversized" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="updated_at" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="cost" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="destinations" type="d3p1:distributors.tariffs.tariff.destinations" lowerBound="0" nillable="true"/>
+		<property name="costKG" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="costCub" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.tariffs.tariff.destinations" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="destination" type="d3p1:distributors.tariffs.tariff.destinations.destination" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.tariffs.tariff.destinations.destination" ordered="false">
+		<property name="from" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="to" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="cost" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="updated_at" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.auth">
+		<property name="result" type="xs:string"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="users" type="d3p1:distributors.dataByDates.users" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="purchases" type="d3p1:distributors.dataByDates.purchases" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="cards" type="d3p1:distributors.dataByDates.cards" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="deliveryGroups" type="d3p1:distributors.dataByDates.deliveryGroups" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="packageOrders" type="d3p1:distributors.dataByDates.packageOrders" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="orgs" type="d3p1:distributors.dataByDates.orgs" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="superGroups" type="d3p1:distributors.dataByDates.superGroups" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.users" ordered="false">
+		<property name="date" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="user" type="d3p1:distributors.dataByDates.users.user" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.users.user" ordered="false">
+		<property name="id" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="city_id" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="name" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="status" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="phone" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="modified" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="rating" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.purchases" ordered="false">
+		<property name="date" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="purchase" type="d3p1:didistributors.dataByDates.purchases.purchase" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="didistributors.dataByDates.purchases.purchase" ordered="false">
+		<property name="id" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="city_id" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="name" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="orgid" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="secureCode" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="modified" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.cards" ordered="false">
+		<property name="date" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="card" type="d3p1:distributors.dataByDates.cards.card" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.cards.card" ordered="false">
+		<property name="id" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="uid" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="status" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="modified" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.deliveryGroups" ordered="false">
+		<property name="date" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="deliveryGroup" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.deliveryGroups.deliveryGroup" ordered="false">
+		<property name="id" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="status" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="distributor_code" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="recipient_code" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="uid" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="min_delivery_date" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="max_delivery_date" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="date_range_limit" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="result" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="message" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="created_at" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="updated_at" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="payment_method" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="prepay_price" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="cod_price" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="bill_date" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="orders" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.orders" lowerBound="0" upperBound="1" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="deliveryMethods" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.deliveryMethods" lowerBound="0" upperBound="1" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="selectedDeliveryMethod" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.deliveryMethods.deliveryMethod" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.deliveryGroups.deliveryGroup.orders" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="order" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.orders.order" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.deliveryGroups.deliveryGroup.orders.order" ordered="false">
+		<property name="orderType" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="pid" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="uid" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="orderId" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="groupCode" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="payment_sum" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="packages" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.orders.order.packages" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.deliveryGroups.deliveryGroup.orders.order.packages" ordered="false">
+		<property name="packages" type="xs:string" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.deliveryGroups.deliveryGroup.deliveryMethods" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="deliveryMethod" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.deliveryMethods.deliveryMethod" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.deliveryGroups.deliveryGroup.deliveryMethods.deliveryMethod" ordered="false">
+		<property name="name" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="price" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="type" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="description" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="deliveryPeriod" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.publicDistributors" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="publicDistributor" type="d3p1:distributors.publicDistributors.publicDistributor" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.publicDistributors.publicDistributor" ordered="false">
+		<property name="name" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="city" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="city_id" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="code" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="isPostService" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="canProcessGroup" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="address" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="version1C" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.packageOrders" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="packageOrder" type="d3p1:distributors.dataByDates.packageOrders.packageOrder" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property name="date" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="distributorCode" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.packageOrders.packageOrder" ordered="false">
+		<property name="destinationDistributorCode" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="uid" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="packageId" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="firstPid" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="packageCreatorUid" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="secureCode" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="did" type="xs:integer" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.orgs" ordered="false">
+		<property name="date" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="org" type="d3p1:distributors.dataByDates.users.user" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.dataByDates.superGroups" ordered="false">
+		<property name="date" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="superGroup" type="d3p1:didistributors.dataByDates.superGroups.superGroup" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="didistributors.dataByDates.superGroups.superGroup" ordered="false">
+		<property name="documentNumber" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="distributorFromCode" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="distributorToCode" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="processedFromAt" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="processedToAt" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="deliveryDescription" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="result" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="message" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="orders" type="d3p1:didistributors.dataByDates.superGroups.superGroup.orders" lowerBound="0" upperBound="1" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="superGroupStages" type="d3p1:didistributors.dataByDates.superGroups.superGroup.superGroupStages" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="didistributors.dataByDates.superGroups.superGroup.orders" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="order" type="d3p1:didistributors.dataByDates.superGroups.superGroup.orders.order" lowerBound="1" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="didistributors.dataByDates.superGroups.superGroup.orders.order" ordered="false">
+		<property name="orderType" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="pid" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="uid" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="orderId" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="groupCode" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="distributor_code" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="didistributors.dataByDates.superGroups.superGroup.superGroupStages" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="superGroupStage" type="d3p1:didistributors.dataByDates.superGroups.superGroup.superGroupStages.superGroupStage" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="didistributors.dataByDates.superGroups.superGroup.superGroupStages.superGroupStage" ordered="false">
+		<property name="ordinalNumber" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="estimate_delivery_date" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="actual_delivery_date" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="delivery_number" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="delivery_service_name" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="delivery_description" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.usersPhones">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="userPhone" type="d3p1:distributors.usersPhones.userPhone" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.usersPhones.userPhone" ordered="false">
+		<property name="phoneNumber" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="id" type="xs:integer" lowerBound="0" nillable="true" form="Element"/>
+		<property name="city_id" type="xs:integer" lowerBound="0" nillable="true" form="Element"/>
+		<property name="name" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+		<property name="status" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+		<property name="phone" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+		<property name="modified" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+		<property name="rating" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+		<property name="phoneHash" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+		<property name="result" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+	</objectType>
+	<objectType name="distributors.reusableStickerLogs" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="reusableStickerLog" type="d3p1:distributors.reusableStickerLogs.reusableStickerLog" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.reusableStickerLogs.reusableStickerLog" ordered="false">
+		<property name="id" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="result" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="logs" type="d3p1:distributors.reusableStickerLogs.reusableStickerLog.logs" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.reusableStickerLogs.reusableStickerLog.logs" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="log" type="d3p1:distributors.reusableStickerLogs.reusableStickerLog.logs.log" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.reusableStickerLogs.reusableStickerLog.logs.log" ordered="false">
+		<property name="distributorCode" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+		<property name="groupStickerBarcode" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="groupStickerId" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="groupStickerCode" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="createdAt" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.distributorTimetable" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="distributor" type="d3p1:distributors.distributors.distributorTimetable.distributor" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.distributors.distributorTimetable.distributor" ordered="false">
+		<property name="distributorCode" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="monday" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="tuesday" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="wednesday" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="thursday" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="friday" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="saturday" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="sunday" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.distributorHolidays">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="distributorHoliday" type="d3p1:distributors.distributorHolidays.distributorHoliday" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property name="date" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="error" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+	</objectType>
+	<objectType name="distributors.distributorHolidays.distributorHoliday">
+		<property name="id" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="date" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="from" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="to" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="comment" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.megaordersPrices" ordered="false">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="item" type="d3p1:distributors.megaordersPrices.item" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.megaordersPrices.item" ordered="false">
+		<property name="id" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="type" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="price" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="result" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+</package>

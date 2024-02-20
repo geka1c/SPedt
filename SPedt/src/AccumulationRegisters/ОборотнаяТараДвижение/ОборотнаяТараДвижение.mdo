@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9d44ae5-281d-4680-a1a1-b214c4a53c08">
+  <producedTypes>
+    <selectionType typeId="f7a86ae0-308f-4168-92b3-59eadc45a521" valueTypeId="a3f10b8e-90ad-409e-bfae-ddc77154797a"/>
+    <listType typeId="6fa870dc-5418-4d40-b832-c43726ef6688" valueTypeId="0dd30145-7b56-46ff-816b-a12d7ed412bf"/>
+    <managerType typeId="ef28584d-5bba-42f6-902b-1b14e100a80a" valueTypeId="77ff3f9b-909b-445f-9312-a59f71526140"/>
+    <recordSetType typeId="67544b5d-335b-4aff-8e07-9f5100b6e3e1" valueTypeId="9edb9075-ecd9-4a42-8ad2-471178b9281d"/>
+    <recordKeyType typeId="2f91a049-6639-4670-a2a3-019fdd2c58eb" valueTypeId="19b09584-64d5-4db8-9c7b-1ca4ef3b5686"/>
+    <recordType typeId="ac602cd0-fc64-4fb1-a99e-4ca93f9d6c3b" valueTypeId="fef0d292-c3e0-4066-881a-42b2db0416c2"/>
+  </producedTypes>
+  <name>ОборотнаяТараДвижение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборотная тара движение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0341b5a0-3056-4e53-b756-63a9082f437a">
+    <name>НаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>На складе</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="03adca9b-7411-4d9c-88a5-b4d9204c29d4">
+    <name>ВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>В пути</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="2422a69e-60e3-458f-824b-05366459ba85">
+    <name>Тара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тара</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОборотнаяТара</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="94278241-ca53-420e-93ae-a9e720084637">
+    <name>ПунктВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт выдачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТочкиРаздачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4a0f58fe-515e-41d1-ae59-520d688f1b35">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВыдачаТранзита</types>
+      <types>DocumentRef.Приходная</types>
+      <types>String</types>
+      <types>DocumentRef.РазборКоробки</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

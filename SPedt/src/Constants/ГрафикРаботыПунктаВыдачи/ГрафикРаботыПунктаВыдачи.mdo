@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2886a9dd-f32b-4e41-89b9-5a88c0e22283">
+  <producedTypes>
+    <managerType typeId="24a189ea-5fbb-4499-8d5f-7e5de1fb879c" valueTypeId="f6e1bbd8-4602-470d-bde4-3f7b89fd176b"/>
+    <valueManagerType typeId="8598b5e7-0e85-46c3-9119-f5b5babaa533" valueTypeId="0c3942ab-5d7c-4a65-aada-b96158ef008f"/>
+    <valueKeyType typeId="a56fcd14-2bb2-4452-ad76-d9e1bf01aa88" valueTypeId="8413a6d5-201e-4c86-a791-c4945bd5eb55"/>
+  </producedTypes>
+  <name>ГрафикРаботыПунктаВыдачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работы пункта выдачи</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Календари</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19d9aef2-c6a6-47ec-8a4f-a1f74fd4a760">
+  <name>ПодсистемаТранспортныеКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема транспортные компании</value>
+  </synonym>
+</mdclass:CommonPicture>

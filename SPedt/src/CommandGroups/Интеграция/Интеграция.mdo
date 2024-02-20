@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0492a71c-6eef-4547-ae45-4a5de2650767">
+  <name>Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

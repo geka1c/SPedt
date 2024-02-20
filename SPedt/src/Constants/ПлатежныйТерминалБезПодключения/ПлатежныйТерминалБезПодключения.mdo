@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70407616-3de2-44e4-94da-7cbdbaf228c0">
+  <producedTypes>
+    <managerType typeId="465e0e24-940f-4569-8785-ba883e663c5b" valueTypeId="c1cc025e-08f0-4628-af47-dd74b483da0a"/>
+    <valueManagerType typeId="cc66d656-64e2-489b-bd5b-5df402b0f79a" valueTypeId="8d053717-8034-40bf-aecf-54db1f570da9"/>
+    <valueKeyType typeId="5deeef4f-bf78-4414-8086-f85fc3cbc33e" valueTypeId="eda69a46-5c24-480d-a6dd-06a2f4141bc1"/>
+  </producedTypes>
+  <name>ПлатежныйТерминалБезПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежный терминал без подключения</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Возможно выбрать метод оплаты платежная карта без подключенного к компьютеру терминала</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

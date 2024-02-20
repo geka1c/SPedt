@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="613014ea-9112-473a-b34a-515f0961fd21">
+  <producedTypes>
+    <objectType typeId="d67f67ad-e087-41a0-8b14-4d54318b47bb" valueTypeId="fecb8fd9-0646-4f68-bcd8-f7e90a78f93e"/>
+    <refType typeId="db65f437-4cb1-44fd-a646-e36ee946dff3" valueTypeId="d20bbcfc-5d7c-484b-9dd6-fa3d0054979a"/>
+    <selectionType typeId="17049c59-c430-4b6e-a597-446669b3938e" valueTypeId="666bd1dc-4746-4f87-bd56-e8eece35ad5b"/>
+    <listType typeId="8cc0151a-2f11-45a8-9f3c-fe7f5a745117" valueTypeId="6486b88e-d660-408c-9bde-2fdd14bdff86"/>
+    <managerType typeId="cbb78fc6-4ae4-436b-a95d-b20960fd5a0c" valueTypeId="98387237-858b-4754-941d-c8808b96814c"/>
+  </producedTypes>
+  <name>ВерсииКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсииКонфигураций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВерсииКонфигураций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>15</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВерсииКонфигураций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВерсииКонфигураций.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="c2933dac-87ce-426d-8b21-aeae23651efa">
+    <name>ФайлCf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл cf</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="736c83f8-c860-45ce-a0f5-93ef7d4bcf5b">
+    <name>ФайлCfu</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл cfu</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec700613-f674-4874-b03c-399b57bf5c6e">
+    <name>ОписаниеОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67edbc83-9766-43df-b3ef-186de084eb10">
+    <name>НеобходимоОбновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необходимо обновление</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca659597-e576-48aa-9f61-724f73fc80ad">
+    <name>вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="23825414-5546-4ac7-ab95-60e825230f5e">
+    <producedTypes>
+      <objectType typeId="f6f5723a-5227-4457-9216-ab344d327172" valueTypeId="ad393526-6713-4832-96c9-0295c7efa67f"/>
+      <rowType typeId="80aee415-0620-4aba-a636-83375f0f2963" valueTypeId="546b003c-ac96-44f9-a710-23855df3dee0"/>
+    </producedTypes>
+    <name>ВерсииДляОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии для обновления</value>
+    </synonym>
+    <attributes uuid="4ba2d1f3-5cba-4d55-8fc4-f8f50f85978f">
+      <name>Версия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Версия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3e2febbb-5a90-433f-b874-c6a97832d591">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9b569bd9-7edd-4fa4-a1f5-b269ac58b340">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
