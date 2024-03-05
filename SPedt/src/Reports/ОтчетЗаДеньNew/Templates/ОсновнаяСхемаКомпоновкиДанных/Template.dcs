@@ -477,6 +477,26 @@
 					<dataPath>ПредоплаченоУчастником</dataPath>
 					<field>ПредоплаченоУчастником</field>
 				</field>
+				<field xsi:type="DataSetFieldField">
+					<dataPath>ОплатаНаПунктеВыдачи</dataPath>
+					<field>ОплатаНаПунктеВыдачи</field>
+					<title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оплата на пункте выдачи</v8:content>
+						</v8:item>
+					</title>
+				</field>
+				<field xsi:type="DataSetFieldField">
+					<dataPath>ПредоплатаНаСайте</dataPath>
+					<field>ПредоплатаНаСайте</field>
+					<title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предоплата на сайте</v8:content>
+						</v8:item>
+					</title>
+				</field>
 				<dataSource>ИсточникДанных1</dataSource>
 				<query>ВЫБРАТЬ
 	РасходОбороты.Габарит КАК Габарит,
@@ -506,9 +526,43 @@
 			ТОГДА РасходОбороты.Регистратор.ВидОплаты
 		ИНАЧЕ ЗНАЧЕНИЕ(Перечисление.ФормыОплаты.Наличные)
 	КОНЕЦ КАК ВидОплаты,
-	РасходОбороты.ПериодЧас КАК ПериодЧас
+	РасходОбороты.ПериодЧас КАК ПериодЧас,
+	РасходОбороты.СуммаОборот КАК ОплатаНаПунктеВыдачи,
+	0 КАК ПредоплатаНаСайте
 ИЗ
 	РегистрНакопления.Расход.Обороты(,, Авто, ТипРасхода &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ТипРасхода.Возврат)) КАК РасходОбороты
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	РасходОбороты.Габарит КАК Габарит,
+	РасходОбороты.Покупка КАК Покупка,
+	РасходОбороты.Участник КАК Участник,
+	ВЫБОР
+		КОГДА ТИПЗНАЧЕНИЯ(РасходОбороты.Участник) = ТИП(Справочник.ТочкиРаздачи)
+		И РасходОбороты.Участник.Код = "0100"
+			ТОГДА "Доставка"
+		КОГДА РасходОбороты.пристрой
+		И РасходОбороты.ТипРасхода = ЗНАЧЕНИЕ(Перечисление.ТипРасхода.Транзит)
+			ТОГДА "Пристрой на транзит"
+		ИНАЧЕ РасходОбороты.ТипРасхода
+	КОНЕЦ КАК ТипРасхода,
+	0 КАК Количество,
+	РасходОбороты.ПредоплатаОборот КАК Сумма,
+	РасходОбороты.Покупка.Организатор КАК Организатор,
+	РасходОбороты.Регистратор КАК Регистратор,
+	ВЫБОР
+		КОГДА РасходОбороты.ПредоплаченоУчастником
+			ТОГДА "Предоплата организатор"
+		ИНАЧЕ "Предоплата участник"
+	КОНЕЦ,
+	РасходОбороты.ПериодЧас КАК ПериодЧас,
+	0 КАК ОплатаНаПунктеВыдачи,
+	РасходОбороты.ПредоплатаОборот КАК ПредоплатаНаСайте
+ИЗ
+	РегистрНакопления.Расход.Обороты(,, Авто, ТипРасхода &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ТипРасхода.Возврат)
+	И (БесплатнаяВыдача
+	ИЛИ ПредоплаченоУчастником)) КАК РасходОбороты
 
 ОБЪЕДИНИТЬ ВСЕ
 
@@ -527,7 +581,9 @@
 			ТОГДА ЗНАЧЕНИЕ(Перечисление.ФормыОплаты.Наличные)
 		ИНАЧЕ ПродажиОбороты.Регистратор.ВидОплаты
 	КОНЕЦ,
-	ПродажиОбороты.ПериодЧас
+	ПродажиОбороты.ПериодЧас,
+	ПродажиОбороты.СтоимостьОборот,
+	0
 ИЗ
 	РегистрНакопления.Продажи.Обороты(,, Авто,) КАК ПродажиОбороты
 ГДЕ
@@ -540,6 +596,14 @@
 			<totalField>
 				<dataPath>Сумма</dataPath>
 				<expression>Сумма(Сумма)</expression>
+			</totalField>
+			<totalField>
+				<dataPath>ПредоплатаНаСайте</dataPath>
+				<expression>Сумма(ПредоплатаНаСайте)</expression>
+			</totalField>
+			<totalField>
+				<dataPath>ОплатаНаПунктеВыдачи</dataPath>
+				<expression>Сумма(ОплатаНаПунктеВыдачи)</expression>
 			</totalField>
 			<parameter>
 				<name>НачалоПериода</name>
@@ -2163,6 +2227,13 @@
 					<dcsset:userSettingID>948b3436-2bae-448c-93f5-c643430ffd20</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemNestedObject">
 				<dcsset:objectID>ПоступлениеЗаказов</dcsset:objectID>
 				<dcsset:settings>
@@ -2337,6 +2408,12 @@
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>ВидОплаты</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПредоплатаНаСайте</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОплатаНаПунктеВыдачи</dcsset:field>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>d3c7b3b1-c885-49c2-916a-5544080fcb7e</dcsset:userSettingID>
@@ -3186,6 +3263,12 @@
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>ВидОплаты</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОплатаНаПунктеВыдачи</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПредоплатаНаСайте</dcsset:field>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>d3c7b3b1-c885-49c2-916a-5544080fcb7e</dcsset:userSettingID>
@@ -4709,6 +4792,12 @@
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>ВидОплаты</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОплатаНаПунктеВыдачи</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПредоплатаНаСайте</dcsset:field>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>d3c7b3b1-c885-49c2-916a-5544080fcb7e</dcsset:userSettingID>
