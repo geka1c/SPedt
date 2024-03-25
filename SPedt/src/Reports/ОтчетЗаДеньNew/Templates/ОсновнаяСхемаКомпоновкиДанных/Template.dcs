@@ -441,8 +441,8 @@
 						</v8:item>
 					</title>
 					<valueType>
-						<v8:Type>xs:string</v8:Type>
 						<v8:Type xmlns:d7p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d7p1:EnumRef.ФормыОплаты</v8:Type>
+						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
 							<v8:Length>100</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
