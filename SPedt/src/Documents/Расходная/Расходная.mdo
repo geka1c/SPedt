@@ -537,6 +537,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="84ce0934-bdf6-4ac6-91bc-e420e855a27a">
+    <name>КоличествоПомеченныхСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество помеченных строк</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="a3c189da-1e79-4ba0-a793-d36df5ebceae">
     <name>ФормаДокумента</name>
     <synonym>
@@ -995,6 +1013,20 @@
           <precision>15</precision>
           <scale>2</scale>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="50666178-c432-4933-a86a-4b8438a93e6c">
+      <name>Подбор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подбор</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -727,6 +727,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f201030f-6643-4b71-b1c2-8ef1edea7edc">
+    <name>СуммаДоставкиОплаченная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма доставки оплаченная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="5cd7465b-b434-4069-b2aa-7bcf53876e29">
     <producedTypes>
       <objectType typeId="8a581218-139c-4818-abe6-f148fdb9401e" valueTypeId="25f1cd83-8332-4acd-9d48-b622397c5893"/>

@@ -13,7 +13,7 @@
 	Объект_dataByDates.deliveryGroups	= ?(ДатаЗагрузки = Неопределено, Справочники.ПараметрыОбмена.ГруппыДоставки.ДатаЗагрузки - 60*24*60*10 , ДатаЗагрузки- 60*24*60*10);
 	
 	Объект_distributors					= ФабрикаXDTO.Создать(Тип_distributors);
-	Объект_distributors.apiVersion		="2";
+	Объект_distributors.apiVersion		="18";
 	Объект_distributors.dataByDates		= Объект_dataByDates;
 	
 	Запись				= Новый ЗаписьXML;
@@ -46,7 +46,7 @@
 	    Объект_deliveryGroups.deliveryGroup.Добавить(Формат(код,"ЧГ=0"));
 	КонецЦикла;
 	Объект_distributors					= ФабрикаXDTO.Создать(Тип_distributors);
-	Объект_distributors.apiVersion		="2";
+	Объект_distributors.apiVersion		="18";
 	Объект_distributors.deliveryGroups	= Объект_deliveryGroups;
 	
 	Запись = Новый ЗаписьXML;
