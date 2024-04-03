@@ -270,6 +270,8 @@
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="orders" type="d3p1:distributors.deliveryGroups.deliveryGroup.orders" lowerBound="0" nillable="true"/>
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="deliveryMethods" type="d3p1:distributors.deliveryGroups.deliveryGroup.deliveryMethods" lowerBound="0" nillable="true"/>
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="selectedDeliveryMethod" type="d3p1:distributors.deliveryGroups.deliveryGroup.deliveryMethods.deliveryMethod" lowerBound="0" nillable="true"/>
+		<property name="deliveryGroupPrice" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="deliveryGroupPaidSum" type="xs:string" lowerBound="0" nillable="true"/>
 	</objectType>
 	<objectType name="distributors.deliveryGroups.deliveryGroup.orders">
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="order" type="d3p1:distributors.deliveryGroups.deliveryGroup.orders.order" lowerBound="0" upperBound="-1" nillable="true"/>
@@ -293,6 +295,8 @@
 		<property name="name" type="xs:string" lowerBound="0" nillable="true"/>
 		<property name="price" type="xs:string" lowerBound="0" nillable="true"/>
 		<property name="type" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="description" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="deliveryPeriod" type="xs:string" lowerBound="0" nillable="true"/>
 	</objectType>
 	<objectType name="distributors.groups">
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="group" type="d3p1:distributors.groups.group" upperBound="-1" nillable="true"/>
