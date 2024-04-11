@@ -2461,6 +2461,7 @@
   <enums>Enum.ТипыСистемНалогообложенияККТ</enums>
   <enums>Enum.ТипыФискальныхДокументовККТ</enums>
   <enums>Enum.СтатусыДоставки</enums>
+  <enums>Enum.СтатусОтправленияТранзита</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализГруппДоставки</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
