@@ -18,7 +18,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Коваль Е. Л.</vendor>
-  <version>3.6.4.14</version>
+  <version>3.6.4.15</version>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
@@ -2019,6 +2019,7 @@
   <constants>Constant.ТарифПередачиЗаказовНаТранзит</constants>
   <constants>Constant.МестоХраненияВЧекеПоступления</constants>
   <constants>Constant.ИспользоватьПризнакОплаты</constants>
+  <constants>Constant.РасходнаяПомечатьВсе</constants>
   <commonForms>CommonForm.ПараметрыУчета</commonForms>
   <commonForms>CommonForm.АдреснаяКнига</commonForms>
   <commonForms>CommonForm.АнализОтвета</commonForms>
