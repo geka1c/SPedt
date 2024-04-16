@@ -52,17 +52,16 @@
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
-      <group>CommandGroup.Документы</group>
-      <commands>Document.Выгрузка_100СП.StandardCommand.OpenList</commands>
-      <commands>Document.ОтчетБухгалтеру.StandardCommand.OpenList</commands>
-      <commands>Document.ПакетНаСайт.StandardCommand.OpenList</commands>
-      <commands>Document.ЗакрытиеОшибокОбмена.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
       <group>CommandGroup.Регистры</group>
       <commands>AccumulationRegister.НеВыгруженноНаСайт.StandardCommand.OpenList</commands>
       <commands>Catalog.ПараметрыОбмена.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ПротоколыОбмена.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.СинхронизацияПоступлений.StandardCommand.OpenList</commands>
+      <commands>Document.Выгрузка_100СП.StandardCommand.OpenList</commands>
+      <commands>Document.ПакетНаСайт.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -70,17 +69,11 @@
       <group>NavigationPanelOrdinary</group>
       <commands>InformationRegister.Обмен100сп.StandardCommand.OpenList</commands>
       <commands>InformationRegister.Обмен100спСообщения.StandardCommand.OpenList</commands>
-      <commands>Document.СинхронизацияПоступлений.StandardCommand.OpenList</commands>
       <commands>Document.СинхронизацияОборотнойТары.StandardCommand.OpenList</commands>
       <commands>Document.СинхронизацияТарифов.StandardCommand.OpenList</commands>
       <commands>Document.СинхронизацияГрафиковРаботы.StandardCommand.OpenList</commands>
       <commands>Document.СинхронизацияСправочников.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>CommandGroup.Документы</group>
-      <commands>Document.Выгрузка_100СП.StandardCommand.OpenList</commands>
       <commands>Document.ОтчетБухгалтеру.StandardCommand.OpenList</commands>
-      <commands>Document.ПакетНаСайт.StandardCommand.OpenList</commands>
       <commands>Document.ЗакрытиеОшибокОбмена.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
@@ -88,6 +81,12 @@
       <commands>AccumulationRegister.НеВыгруженноНаСайт.StandardCommand.OpenList</commands>
       <commands>Catalog.ПараметрыОбмена.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ПротоколыОбмена.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.СинхронизацияПоступлений.StandardCommand.OpenList</commands>
+      <commands>Document.Выгрузка_100СП.StandardCommand.OpenList</commands>
+      <commands>Document.ПакетНаСайт.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
