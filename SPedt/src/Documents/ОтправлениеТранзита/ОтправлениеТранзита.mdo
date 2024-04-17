@@ -37,6 +37,7 @@
   <registerRecords>AccumulationRegister.Транзит</registerRecords>
   <registerRecords>InformationRegister.СтатусыДоставки</registerRecords>
   <registerRecords>AccumulationRegister.Обмен100СПрн</registerRecords>
+  <registerRecords>InformationRegister.ЗаказыТранскортныхКомпаний</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="66431926-6431-4316-990d-00721907d7e4">
@@ -2002,6 +2003,58 @@
         <stringQualifiers>
           <length>50</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fda056b6-fe07-4827-9627-2819938d0a54">
+      <name>СтоимостьДоставкиСНадбавками</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость доставки с надбавками</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d1e11e4a-49a7-4a06-97fd-cd17d3b51378">
+      <name>ОбъемЛитр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объем литр</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="69693197-75d9-4a4c-a938-92c157506353">
+      <name>ОбъемныйВес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объемный вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
