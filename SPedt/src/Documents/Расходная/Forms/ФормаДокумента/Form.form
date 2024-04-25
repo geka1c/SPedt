@@ -181,7 +181,7 @@
         </toolTip>
         <handlers>
           <event>OnChange</event>
-          <name>ПокупкиПриИзменении</name>
+          <name>СписатьПриИзменении</name>
         </handlers>
         <extendedTooltip>
           <name>СписатьExtendedTooltip</name>
@@ -944,7 +944,7 @@
         </dataPath>
         <handlers>
           <event>OnChange</event>
-          <name>ПокупкиПриИзменении</name>
+          <name>ПоискНикаСтоимостьПриИзменении</name>
         </handlers>
         <extendedTooltip>
           <name>ПоискНикаСтоимостьExtendedTooltip</name>
@@ -4502,7 +4502,7 @@ QR</value>
         </autoCommandBar>
         <handlers>
           <event>OnChange</event>
-          <name>ПокупкиПриИзменении</name>
+          <name>ТоварыПриИзменении</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
@@ -6394,6 +6394,31 @@ QR</value>
     <name>ЗаполнятьПоУчастнику</name>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Участник</name>
+    <valueType>
+      <types>CatalogRef.Участники</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>КартаУчастника</name>
+    <valueType>
+      <types>String</types>
+      <types>CatalogRef.КартыУчастников</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПоискНикаСтоимость</name>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </valueType>
   </parameters>
   <commandInterface>
