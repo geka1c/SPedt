@@ -30,5 +30,6 @@
   <content>AccumulationRegister.ЗаказыТранспортныхКомпаний</content>
   <content>CommonCommand.ПанельОтчетовТранспортныеКомпании</content>
   <content>FunctionalOption.ПочтаРоссии</content>
+  <content>InformationRegister.ЗаказыТранскортныхКомпаний</content>
   <subsystems>ПочтаРоссии</subsystems>
 </mdclass:Subsystem>

@@ -61,7 +61,9 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.ЗаказыВПосылках.StandardCommand.OpenList</command>
-      <visible/>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>InformationRegister.СтоСП_ПосылкиЗаказа.StandardCommand.OpenList</command>
@@ -83,6 +85,12 @@
       <command>Report.ВедомостьЗаказовТК.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ЗаказыТранскортныхКомпаний.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -103,6 +111,7 @@
       <commands>AccumulationRegister.ЗаказыВПосылках.StandardCommand.OpenList</commands>
       <commands>InformationRegister.СтоСП_ПосылкиЗаказа.StandardCommand.OpenList</commands>
       <commands>InformationRegister.АдресаЗаказов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЗаказыТранскортныхКомпаний.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Интеграция</group>
@@ -136,8 +145,8 @@
     <orderFragments>
       <group>CommandGroup.Регистры</group>
       <commands>AccumulationRegister.ЗаказыВПосылках.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.СтоСП_ПосылкиЗаказа.StandardCommand.OpenList</commands>
       <commands>InformationRegister.АдресаЗаказов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЗаказыТранскортныхКомпаний.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Интеграция</group>
