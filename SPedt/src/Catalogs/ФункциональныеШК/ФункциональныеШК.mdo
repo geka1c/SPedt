@@ -85,6 +85,13 @@
         <value>6600000020005</value>
       </code>
     </items>
+    <items id="aea2e5ef-4bc9-43b1-927c-c3f485dda1d1">
+      <name>НапечататьЧекРасходной</name>
+      <description>Напечатать чек расходной</description>
+      <code xsi:type="core:StringValue">
+        <value>6600000020010</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
