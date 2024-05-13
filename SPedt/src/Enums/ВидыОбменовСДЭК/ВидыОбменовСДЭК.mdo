@@ -47,4 +47,11 @@
       <value>Удаление заказа</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="11b6b243-9202-4dbf-9c46-c1c7898e44e4">
+    <name>СписокПВЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список ПВЗ</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c363fa3-554d-4871-8b05-b9b0caf38adc">
+  <producedTypes>
+    <refType typeId="e2c1aabd-90cb-462f-a7c0-7c61f0014cd7" valueTypeId="e4f254bd-e5a9-4fa0-b050-b4984ca0976b"/>
+    <listType typeId="2cb47ba2-bbfc-4d3a-ab04-f37772a4fee5" valueTypeId="a1138b92-92a7-4e53-bb43-d2dd503daa31"/>
+    <managerType typeId="4cb658d4-cdb9-4496-96fe-a1dd894b2851" valueTypeId="169b207f-feb4-41bf-97af-bb414f6072d9"/>
+  </producedTypes>
+  <name>СтатусОтправленияТранзита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус отправления транзита</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c2204787-8b8f-4e27-8fad-95d589be82c2">
+    <name>НеОбработано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обработано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f43f4d2-0474-4133-b6b7-613fe39e4cd3">
+    <name>ПолученаСтоимостьЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получена стоимость частично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed3648b3-3ab2-4e0c-a0f9-d2ef163b98df">
+    <name>ПолученаСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получена стоимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="300a80f3-8743-452d-8526-6228a50e9779">
+    <name>ПолученыТрекНомераЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получены трек номера частично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c8de0c1-a455-4ce6-85f9-001c0796fdd4">
+    <name>ПолученыТрекНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получены трек номера</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

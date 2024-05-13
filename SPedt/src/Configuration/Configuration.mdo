@@ -18,7 +18,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Коваль Е. Л.</vendor>
-  <version>3.6.4.17</version>
+  <version>3.6.4.18</version>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
@@ -2462,6 +2462,7 @@
   <enums>Enum.ТипыСистемНалогообложенияККТ</enums>
   <enums>Enum.ТипыФискальныхДокументовККТ</enums>
   <enums>Enum.СтатусыДоставки</enums>
+  <enums>Enum.СтатусОтправленияТранзита</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализГруппДоставки</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
@@ -2802,6 +2803,7 @@
   <informationRegisters>InformationRegister.ОборотнаяТара</informationRegisters>
   <informationRegisters>InformationRegister.ИзмененияДокументов</informationRegisters>
   <informationRegisters>InformationRegister.ВозвратыПрава</informationRegisters>
+  <informationRegisters>InformationRegister.ЗаказыТранскортныхКомпаний</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКонтрагентами</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Расход</accumulationRegisters>

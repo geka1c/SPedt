@@ -1349,7 +1349,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.СоздатьПартиюПР</commandName>
+              <commandName>Form.Command.СоздатьПартиюПочтаРоссии</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -6725,7 +6725,7 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>СоздатьПартиюПР</name>
+    <name>СоздатьПартиюПочтаРоссии</name>
     <title>
       <key>ru</key>
       <value>Создать Партию</value>
@@ -6740,7 +6740,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>СоздатьПартиюПР</name>
+        <name>СоздатьПартиюПочтаРоссии</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
@@ -7113,6 +7113,18 @@
     <valueType>
       <types>CatalogRef.СегментыПунктовВыдачи</types>
       <types>CatalogRef.ТочкиРаздачи</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ОшибочныеЗаказы</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Заморозка</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>
