@@ -1160,6 +1160,111 @@
             </font>
           </extInfo>
         </items>
+        <items xsi:type="form:Decoration">
+          <name>Декорация1</name>
+          <id>442</id>
+          <title>
+            <key>ru</key>
+            <value>/</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>Декорация1РасширеннаяПодсказка</name>
+            <id>444</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>Декорация1КонтекстноеМеню</name>
+            <id>443</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <font xsi:type="core:FontRef">
+            <font>Style.ExtraLargeTextFont</font>
+            <bold>true</bold>
+            <italic>false</italic>
+            <underline>false</underline>
+            <strikeout>false</strikeout>
+          </font>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СуммаДокумента</name>
+          <id>439</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СуммаДокумента</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <extendedTooltip>
+            <name>СуммаДокументаРасширеннаяПодсказка</name>
+            <id>441</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СуммаДокументаКонтекстноеМеню</name>
+            <id>440</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <font xsi:type="core:FontRef">
+              <font>Style.ExtraLargeTextFont</font>
+              <bold>true</bold>
+              <italic>false</italic>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+            </font>
+          </extInfo>
+        </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаПредоплата</name>
           <id>417</id>
@@ -5906,6 +6011,27 @@ QR</value>
     <id>3</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СуммаДокумента</name>
+    <title>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
