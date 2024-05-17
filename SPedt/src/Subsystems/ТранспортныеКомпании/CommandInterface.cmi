@@ -76,12 +76,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.СдэкИнеграция.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Report.ВедомостьЗаказовТК.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -113,10 +107,6 @@
       <commands>InformationRegister.АдресаЗаказов.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЗаказыТранскортныхКомпаний.StandardCommand.OpenList</commands>
     </placementFragments>
-    <placementFragments>
-      <group>CommandGroup.Интеграция</group>
-      <commands>Document.СдэкИнеграция.StandardCommand.OpenList</commands>
-    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
@@ -147,10 +137,6 @@
       <commands>AccumulationRegister.ЗаказыВПосылках.StandardCommand.OpenList</commands>
       <commands>InformationRegister.АдресаЗаказов.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЗаказыТранскортныхКомпаний.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>CommandGroup.Интеграция</group>
-      <commands>Document.СдэкИнеграция.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

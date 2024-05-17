@@ -21,7 +21,6 @@
     <types>DocumentRef.СинхронизацияПоступлений</types>
     <types>DocumentRef.УпаковатьЗаказы</types>
     <types>DocumentRef.УдалитьКассовыйЧекКоррекции</types>
-    <types>DocumentRef.СдэкИнеграция</types>
     <types>DocumentRef.ОтправлениеТранзита</types>
     <types>DocumentRef.ДвижениеТранзита</types>
     <types>DocumentRef.ПакетНаСайт</types>

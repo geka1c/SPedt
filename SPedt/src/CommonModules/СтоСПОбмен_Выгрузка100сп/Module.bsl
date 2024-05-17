@@ -175,6 +175,12 @@
 		авторизацияВыполнена = истина;
 	КонецЕсли;
 	
+	Если Объект_distributors.groupsBill <>Неопределено Тогда
+		ТЗ=СтоСПОбмен_Общий.ТЗ_поСпискуXDTO(Объект_distributors.groupsBill.group);
+		стр_Результат.Вставить("groupsBill",ТЗ);
+	КонецЕсли;
+	
+	
 	Если Объект_distributors.reusableStickerConnects <>Неопределено Тогда
 		ТЗ=СтоСПОбмен_Общий.ТЗ_поСпискуXDTO(Объект_distributors.reusableStickerConnects.reusableStickerConnect);
 		стр_Результат.Вставить("reusableStickerConnect",ТЗ);

@@ -2137,7 +2137,6 @@
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
   <commonForms>CommonForm.ФормаПросмотраHTML</commonForms>
-  <commonForms>CommonForm.ВиджетОбмена100СП</commonForms>
   <commonForms>CommonForm.ФормаНастройкиШтрихМФискальныеРегистраторы</commonForms>
   <commonForms>CommonForm.ФормаНастройкиШтрихМЭлектронныеВесы</commonForms>
   <commonForms>CommonForm.ВыборПосылкиПоПокупкеУчастнику</commonForms>
@@ -2315,7 +2314,6 @@
   <documents>Document.СинхронизацияТарифов</documents>
   <documents>Document.УстановкаТарифов</documents>
   <documents>Document.СинхронизацияСправочников</documents>
-  <documents>Document.СдэкИнеграция</documents>
   <documents>Document.УстановитьВиновника</documents>
   <documents>Document.СинхронизацияПоступлений</documents>
   <documents>Document.СинхронизацияОборотнойТары</documents>
@@ -2501,7 +2499,6 @@
   <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
   <reports>Report.ИсторияЗаказов</reports>
   <reports>Report.КассоваяВедомость</reports>
-  <reports>Report.КонсольСистемыКомпоновкиДанных</reports>
   <reports>Report.КонтрольСупергрупп</reports>
   <reports>Report.МестаИспользованияСсылок</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>

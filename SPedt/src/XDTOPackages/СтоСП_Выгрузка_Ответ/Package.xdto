@@ -43,6 +43,7 @@
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="utc" type="d3p1:distributors.utc" lowerBound="0" nillable="true"/>
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="reusableStickerConnects" type="d3p1:distributors.reusableStickerConnects" lowerBound="0" nillable="true"/>
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="returnRights" type="d3p1:distributors.returnRights" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="groupsBill" type="d3p1:distributors.groupsBill" lowerBound="0" nillable="true"/>
 	</objectType>
 	<objectType name="distributors.auth" ordered="false">
 		<property name="result" type="xs:string"/>
@@ -162,6 +163,7 @@
 		<property name="result" type="xs:string" nillable="true" form="Element"/>
 		<property name="message" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
 		<property name="destinationDistributorCode" type="xs:integer" lowerBound="0" nillable="true" form="Element"/>
+		<property name="warning" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
 	</objectType>
 	<objectType name="distributors.superGroups">
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="superGroup" type="d3p1:distributors.superGroups.superGroup" upperBound="-1" nillable="true"/>
@@ -716,5 +718,18 @@
 		<property name="code" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
 		<property name="result" type="xs:string" nillable="true" form="Element"/>
 		<property name="message" type="xs:string" lowerBound="0" nillable="true" form="Element"/>
+	</objectType>
+	<objectType name="distributors.groupsBill">
+		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="group" type="d3p1:distributors.groupsBill.group" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="distributors.groupsBill.group" ordered="false">
+		<property name="delivery_group_id" type="xs:string" form="Attribute"/>
+		<property name="weight" type="xs:string" form="Attribute"/>
+		<property name="width" type="xs:string" form="Attribute"/>
+		<property name="height" type="xs:string" form="Attribute"/>
+		<property name="length" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="bill_date" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="message" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="result" type="xs:string" lowerBound="0" nillable="true"/>
 	</objectType>
 </package>

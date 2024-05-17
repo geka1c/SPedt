@@ -61,11 +61,6 @@
       </visibility>
     </items>
     <items>
-      <form>CommonForm.ВиджетОбмена100СП</form>
-      <height>10</height>
-      <visibility/>
-    </items>
-    <items>
       <form>CommonForm.ФормаВыбораСостоянияОбработкиКоробок</form>
       <height>3</height>
       <visibility/>

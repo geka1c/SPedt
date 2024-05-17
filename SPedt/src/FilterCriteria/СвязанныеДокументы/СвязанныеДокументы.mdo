@@ -23,7 +23,6 @@
     <types>DocumentRef.Продажа</types>
     <types>DocumentRef.СинхронизацияПоступлений</types>
     <types>DocumentRef.УдалитьКассовыйЧекКоррекции</types>
-    <types>DocumentRef.СдэкИнеграция</types>
     <types>DocumentRef.ОтправлениеТранзита</types>
     <types>DocumentRef.ПакетНаСайт</types>
     <types>DocumentRef.СинхронизацияМобильноеПриложение</types>
@@ -85,8 +84,6 @@
   <content>Document.ЗаполнитьСупергруппу.Attribute.ДокументОснование</content>
   <content>Document.КорректировкаОстатков.TabularSection.Покупки.Attribute.Партия</content>
   <content>Document.КорректировкаОстатков.TabularSection.Транзиты.Attribute.Партия</content>
-  <content>Document.СдэкИнеграция.TabularSection.ТрекНомера.Attribute.Партия</content>
-  <content>Document.СдэкИнеграция.TabularSection.Квитанции.Attribute.Партия</content>
   <content>Document.СинхронизацияПоступлений.TabularSection.Данные.Attribute.Партия</content>
   <content>Document.СинхронизацияПоступлений.TabularSection.Накладные.Attribute.Партия</content>
   <content>Document.СинхронизацияМобильноеПриложение.Attribute.ДокументПоступления</content>

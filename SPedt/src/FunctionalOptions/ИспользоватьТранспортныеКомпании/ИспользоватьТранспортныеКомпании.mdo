@@ -21,7 +21,6 @@
   <content>Catalog.ТранспортныеКомпании</content>
   <content>DataProcessor.ОбъединеннаяДоставкаГрузов</content>
   <content>Catalog.ПунктыВыдачиBoxBerry</content>
-  <content>Document.СдэкИнеграция</content>
   <content>CommonCommand.ЗаказыТК</content>
   <content>Report.ВедомостьЗаказовТК</content>
   <content>CommonCommand.ПанельОтчетовТранспортныеКомпании</content>

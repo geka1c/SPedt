@@ -34,9 +34,9 @@
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>AccumulationRegister.ЗаказыВПосылках</registerRecords>
   <registerRecords>InformationRegister.СтатусыДоставкиСвернуто</registerRecords>
+  <registerRecords>AccumulationRegister.Обмен100СПрн</registerRecords>
   <registerRecords>AccumulationRegister.Транзит</registerRecords>
   <registerRecords>InformationRegister.СтатусыДоставки</registerRecords>
-  <registerRecords>AccumulationRegister.Обмен100СПрн</registerRecords>
   <registerRecords>InformationRegister.ЗаказыТранскортныхКомпаний</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -262,7 +262,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

@@ -6531,8 +6531,8 @@ QR</value>
   <parameters>
     <name>КартаУчастника</name>
     <valueType>
-      <types>String</types>
       <types>CatalogRef.КартыУчастников</types>
+      <types>String</types>
       <stringQualifiers>
         <length>30</length>
       </stringQualifiers>
