@@ -371,4 +371,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="ec079872-de38-4e1b-af73-e608238cc8a1">
+    <name>ВыборАдресаДляВызоваКурьераПочтаРосси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор адреса для вызова курьера почта росси</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
