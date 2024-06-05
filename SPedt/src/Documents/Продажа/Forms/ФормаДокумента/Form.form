@@ -1760,6 +1760,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ПлатежныйТерминалБезПодключения</name>
+    <title>
+      <key>ru</key>
+      <value>Платежный терминал без подключения</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ВвестиШтрихКодВручную</name>
     <title>
