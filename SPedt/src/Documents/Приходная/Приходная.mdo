@@ -215,6 +215,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="57d80afe-fc17-4ff2-9b76-d9e192505caa">
+    <name>ИгнорироватьПредупреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорировать предупреждения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f52bef01-80cf-4f19-a880-c60eadcb640c">
     <name>ФормаДокумента</name>
     <synonym>

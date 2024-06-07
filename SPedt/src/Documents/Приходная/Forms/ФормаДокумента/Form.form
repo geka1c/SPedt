@@ -463,6 +463,56 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ИгнорироватьПредупреждения</name>
+      <id>403</id>
+      <titleTextColor xsi:type="core:ColorRef">
+        <color>Style.SpecialTextColor</color>
+      </titleTextColor>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ИгнорироватьПредупреждения</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ИгнорироватьПредупрежденияРасширеннаяПодсказка</name>
+        <id>405</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИгнорироватьПредупрежденияКонтекстноеМеню</name>
+        <id>404</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+        <borderColor xsi:type="core:ColorDef">
+          <red>255</red>
+        </borderColor>
+      </extInfo>
+    </items>
     <items xsi:type="form:FormGroup">
       <name>грТранзит</name>
       <id>85</id>
@@ -471,7 +521,8 @@
         <id>87</id>
         <title>
           <key>ru</key>
-          <value>Не проверять пункт выдачи заказа</value>
+          <value>Не проверять 
+пункт выдачи заказа</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
