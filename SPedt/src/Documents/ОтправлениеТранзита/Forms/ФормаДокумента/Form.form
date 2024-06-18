@@ -2394,6 +2394,36 @@
             </extendedTooltip>
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
+          <items xsi:type="form:Button">
+            <name>ТрекНомераТрекНомераШтрихКоды</name>
+            <id>685</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ТрекНомераТрекНомераШтрихКодыРасширеннаяПодсказка</name>
+              <id>686</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ТрекНомераШтрихКоды</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -10364,6 +10394,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ТрекНомераОчиститьВнутреннийНомер</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ТрекНомераШтрихКоды</name>
+    <title>
+      <key>ru</key>
+      <value>Штрих коды</value>
+    </title>
+    <id>25</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Трек номера штрих коды</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ТрекНомераШтрихКоды</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

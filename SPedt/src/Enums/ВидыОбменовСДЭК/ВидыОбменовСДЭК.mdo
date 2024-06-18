@@ -54,4 +54,11 @@
       <value>Список ПВЗ</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="117cee5b-501d-4f12-beaa-8ffc15e85f9c">
+    <name>ШтрихкодМестаКЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод места к заказу</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
