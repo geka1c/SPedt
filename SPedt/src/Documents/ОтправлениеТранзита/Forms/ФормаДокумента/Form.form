@@ -2570,6 +2570,36 @@
           <name>ТрекНомераКонтекстноеМеню</name>
           <id>508</id>
           <items xsi:type="form:Button">
+            <name>ТрекНомераКонтекстноеМенюТрекНомераОчиститьТрек</name>
+            <id>687</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ТрекНомераКонтекстноеМенюТрекНомераОчиститьТрекРасширеннаяПодсказка</name>
+              <id>688</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ТрекНомераОчиститьТрек</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
             <name>ТрекНомераКонтекстноеМенюТрекНомераОчиститьВнутреннийНомер</name>
             <id>615</id>
             <visible>true</visible>
@@ -10415,6 +10445,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ТрекНомераШтрихКоды</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ТрекНомераОчиститьТрек</name>
+    <title>
+      <key>ru</key>
+      <value>Трек номера очистить трек</value>
+    </title>
+    <id>26</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Трек номера очистить трек</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ТрекНомераОчиститьТрек</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
