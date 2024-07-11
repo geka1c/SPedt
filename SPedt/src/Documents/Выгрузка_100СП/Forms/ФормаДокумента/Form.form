@@ -1253,19 +1253,120 @@
                   <textEdit>true</textEdit>
                 </extInfo>
               </items>
-              <items xsi:type="form:FormField">
-                <name>ВыгружаемыеДанныеПартия</name>
-                <id>26</id>
+              <items xsi:type="form:FormGroup">
+                <name>ВыгружаемыеДанныеГруппа5</name>
+                <id>279</id>
+                <items xsi:type="form:FormField">
+                  <name>ВыгружаемыеДанныеПартия</name>
+                  <id>26</id>
+                  <visible>true</visible>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>Объект.ВыгружаемыеДанные.Партия</segments>
+                  </dataPath>
+                  <extendedTooltip>
+                    <name>ВыгружаемыеДанныеПартияРасширеннаяПодсказка</name>
+                    <id>28</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ВыгружаемыеДанныеПартияКонтекстноеМеню</name>
+                    <id>27</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>InputField</type>
+                  <editMode>EnterOnInput</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:InputFieldExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <wrap>true</wrap>
+                    <chooseType>true</chooseType>
+                    <typeDomainEnabled>true</typeDomainEnabled>
+                    <textEdit>true</textEdit>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:FormField">
+                  <name>ВыгружаемыеДанныеПартияЗаказа</name>
+                  <id>281</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>Объект.ВыгружаемыеДанные.ПартияЗаказа</segments>
+                  </dataPath>
+                  <extendedTooltip>
+                    <name>ВыгружаемыеДанныеПартияЗаказаРасширеннаяПодсказка</name>
+                    <id>283</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ВыгружаемыеДанныеПартияЗаказаКонтекстноеМеню</name>
+                    <id>282</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>InputField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:InputFieldExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <wrap>true</wrap>
+                    <chooseType>true</chooseType>
+                    <typeDomainEnabled>true</typeDomainEnabled>
+                    <textEdit>true</textEdit>
+                  </extInfo>
+                </items>
                 <visible>true</visible>
+                <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.ВыгружаемыеДанные.Партия</segments>
-                </dataPath>
+                <title>
+                  <key>ru</key>
+                  <value>Выгружаемые данные группа5</value>
+                </title>
                 <extendedTooltip>
-                  <name>ВыгружаемыеДанныеПартияРасширеннаяПодсказка</name>
-                  <id>28</id>
+                  <name>ВыгружаемыеДанныеГруппа5РасширеннаяПодсказка</name>
+                  <id>280</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1278,28 +1379,10 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <contextMenu>
-                  <name>ВыгружаемыеДанныеПартияКонтекстноеМеню</name>
-                  <id>27</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>InputField</type>
-                <editMode>EnterOnInput</editMode>
-                <showInHeader>true</showInHeader>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <wrap>true</wrap>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
+                <type>ColumnGroup</type>
+                <extInfo xsi:type="form:ColumnGroupExtInfo">
+                  <group>Vertical</group>
+                  <showTitle>true</showTitle>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">

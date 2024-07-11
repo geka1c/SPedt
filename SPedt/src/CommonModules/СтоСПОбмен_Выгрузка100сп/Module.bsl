@@ -240,6 +240,11 @@
 		ТЗ=СтоСПОбмен_Общий.ТЗ_поСпискуXDTO(Объект_distributors.transfers.transfer);
 		стр_Результат.Вставить("transfers",ТЗ);
 	КонецЕсли;
+
+	Если Объект_distributors.preTransfers<>Неопределено Тогда
+		ТЗ=СтоСПОбмен_Общий.ТЗ_поСпискуXDTO(Объект_distributors.preTransfers.preTransfer);
+		стр_Результат.Вставить("preTransfers",ТЗ);
+	КонецЕсли;
 	
 	Если Объект_distributors.returns<>Неопределено Тогда
 		ТЗ=СтоСПОбмен_Общий.ТЗ_поСпискуXDTO(Объект_distributors.returns.return);
