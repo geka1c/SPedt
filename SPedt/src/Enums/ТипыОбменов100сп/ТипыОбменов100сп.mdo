@@ -145,4 +145,11 @@
       <value>Списание</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="dd375a88-65c7-4984-99f9-80b9a958aba4">
+    <name>ЗаказыДляТранзита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы для транзита</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
