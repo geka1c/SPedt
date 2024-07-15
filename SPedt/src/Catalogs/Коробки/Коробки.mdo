@@ -746,6 +746,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="242a91d5-239f-4962-9d95-5bcff1918f62">
+    <name>ВерсияТарифов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия тарифов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="5cd7465b-b434-4069-b2aa-7bcf53876e29">
     <producedTypes>
       <objectType typeId="8a581218-139c-4818-abe6-f148fdb9401e" valueTypeId="25f1cd83-8332-4acd-9d48-b622397c5893"/>

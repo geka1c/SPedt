@@ -108,6 +108,7 @@
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="orders" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.orders" lowerBound="0" upperBound="1" nillable="true"/>
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="deliveryMethods" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.deliveryMethods" lowerBound="0" upperBound="1" nillable="true"/>
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="selectedDeliveryMethod" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.deliveryMethods.deliveryMethod" lowerBound="0" upperBound="1" nillable="true"/>
+		<property name="priceCalculationVersion" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
 	</objectType>
 	<objectType name="distributors.dataByDates.deliveryGroups.deliveryGroup.orders" ordered="false">
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/back" name="order" type="d3p1:distributors.dataByDates.deliveryGroups.deliveryGroup.orders.order" lowerBound="0" upperBound="-1" nillable="true"/>
