@@ -293,6 +293,7 @@
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="selectedDeliveryMethod" type="d3p1:distributors.deliveryGroups.deliveryGroup.deliveryMethods.deliveryMethod" lowerBound="0" nillable="true"/>
 		<property name="deliveryGroupPrice" type="xs:string" lowerBound="0" nillable="true"/>
 		<property name="deliveryGroupPaidSum" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="priceCalculationVersion" type="xs:string" lowerBound="0" nillable="true"/>
 	</objectType>
 	<objectType name="distributors.deliveryGroups.deliveryGroup.orders">
 		<property xmlns:d3p1="http://www.100sp.ru/api/distributor/upload/back" name="order" type="d3p1:distributors.deliveryGroups.deliveryGroup.orders.order" lowerBound="0" upperBound="-1" nillable="true"/>
