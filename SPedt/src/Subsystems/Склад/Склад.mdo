@@ -39,6 +39,7 @@
   <content>Document.ПечатьСтикеров</content>
   <content>DocumentJournal.ВсеПриходы</content>
   <content>DataProcessor.ИсторияЗаказа</content>
+  <content>Report.ОтчетДоставкиЗаказовПоКубам</content>
   <subsystems>Регистры</subsystems>
   <subsystems>Товары</subsystems>
 </mdclass:Subsystem>

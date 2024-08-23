@@ -83,6 +83,14 @@
       <command>Report.РасположениеПокупок.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ОтчетДоставкиЗаказовПоКубам.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.СписанныеПокупки.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>

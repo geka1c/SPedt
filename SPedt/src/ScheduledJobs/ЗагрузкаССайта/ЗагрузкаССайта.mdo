@@ -7,6 +7,7 @@
   </synonym>
   <methodName>CommonModule.аСППрив.ВыполнитьЗагрузкуССайта</methodName>
   <description>Загрузка с сайта</description>
+  <key>ЗагрузкаССайта</key>
   <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
