@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dde52999-a437-467d-8f1d-abc61fa3d453">
+  <producedTypes>
+    <managerType typeId="2877835d-2366-43ca-be22-e262a61344a6" valueTypeId="d72c4835-1da7-4b26-b209-8fe1333318c5"/>
+    <valueManagerType typeId="3bff95d6-2879-4a37-93b2-1251ae1c9347" valueTypeId="1d61d315-fcc6-4a38-8d08-a5bd4a48d35c"/>
+    <valueKeyType typeId="7ff36608-25cd-45d2-b2a6-ef72a269977a" valueTypeId="c30ec1ab-cf6e-48ae-923b-1e0dd4677e95"/>
+  </producedTypes>
+  <name>ВиджетТранзита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виджет транзита</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Показывать на рабочем столе количество транзитных заказов. С возможностью сформировать движение по этим заказам</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

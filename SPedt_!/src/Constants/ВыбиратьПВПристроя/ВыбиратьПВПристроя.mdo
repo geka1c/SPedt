@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09a59577-cb7a-46eb-bfac-d66f7b9a7aa4">
+  <producedTypes>
+    <managerType typeId="145fe907-f886-4491-b055-29315abef48f" valueTypeId="899f6c08-6598-4475-a88f-78d5f2c78f53"/>
+    <valueManagerType typeId="844eea45-4854-4ba0-ae98-f546f836ddc7" valueTypeId="9c40740e-7510-44e0-84d6-e0866e15e39c"/>
+    <valueKeyType typeId="e7d868f2-f19d-40d1-adeb-0d3e62284a8f" valueTypeId="9da2f72e-89df-46f5-8eae-f35d7e729f04"/>
+  </producedTypes>
+  <name>ВыбиратьПВПристроя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбирать ПВПристроя</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Если флаг установлен, в момент оприходования пристроя либо внешнего заказа программа запросит указать пункт выдачи заказа. Иначе заказ оприходуется на текущий пункт выдачи.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

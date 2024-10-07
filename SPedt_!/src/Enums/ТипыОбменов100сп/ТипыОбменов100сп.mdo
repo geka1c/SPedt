@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fe69c8f-49d5-43fc-bbab-4669ede528bc">
+  <producedTypes>
+    <refType typeId="d3cee81f-0451-4461-a975-1677c40935cf" valueTypeId="f6e6be7c-7af0-4ff6-a201-5b6ad41f3407"/>
+    <listType typeId="42805063-bcb1-48aa-be32-777aaab64348" valueTypeId="b83f9710-b60c-4dc7-ad58-c8f4aed2eb87"/>
+    <managerType typeId="a9acb513-51ba-4bf3-ab11-e3bf54063aa7" valueTypeId="233a0395-7183-45ff-89b3-8ecfab239122"/>
+  </producedTypes>
+  <name>ТипыОбменов100сп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы обменов100сп</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e5659738-097f-40d4-b06f-4cbe0c45743f">
+    <name>Приход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление заказов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff4efba0-9622-442a-b7b5-3d101c5e63db">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77cfbf6e-8633-496e-a491-f440f85180c1">
+    <name>ПередачаВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача возврата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84ee6c28-f9e7-472a-be77-33de6e1f263d">
+    <name>ПеремещениеВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение возврата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02ce4965-efe1-46aa-8ba8-3c86f49bfe33">
+    <name>Расход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ccf087b7-f6a8-4b95-a5ae-926afb43d581">
+    <name>Карты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5885fbc5-5051-4df7-bd5f-510fae589b04">
+    <name>Транзит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транзит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9bf732a-b9c0-4565-b869-4d5dbeac31fb">
+    <name>СуперГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Супер группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8d527e7-457b-4620-97a6-8b928449b3c0">
+    <name>СуперГруппаРегистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Супер группа регистрация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eaed415c-a4fd-4c94-bcc0-fd03b94d6d66">
+    <name>СуперГруппаКолено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Супер группа колено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ef32bb4-0755-4df3-9ac3-ff1f5b1a0aad">
+    <name>ЗагрузкаПосылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка посылок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82f376b8-7af7-434c-a12d-1f8a86135be5">
+    <name>ПоступлениеПристроя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление пристроя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80306e33-a7a4-47bf-b503-3631c0f18c2b">
+    <name>ВыгрузкаЯндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка яндекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="375e254c-f53f-40ba-baf1-25c7b14a6489">
+    <name>КурьерскаяДоставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьерская доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75feb2d5-6889-4777-84b6-ae4f7f2c6344">
+    <name>ГруппыДоставкиЗапросОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы доставки запрос оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4bf9195-d90a-4031-a838-b6fe7dabe406">
+    <name>ГруппыДоставкиЗапросОтсрочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы доставки запрос отсрочки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d1a4d36-2ffd-42fb-a0b3-616c9b153c66">
+    <name>ПотерянныеЗаказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потерянные заказы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a2e1f3d-867e-44b3-919e-bc1bfdb25ddc">
+    <name>ЗагрузкаСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка справочников</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec8d3a65-168f-4200-b898-135a0c8568b0">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd375a88-65c7-4984-99f9-80b9a958aba4">
+    <name>ЗаказыДляТранзита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы для транзита</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

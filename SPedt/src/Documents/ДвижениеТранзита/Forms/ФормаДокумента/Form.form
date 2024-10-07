@@ -1657,7 +1657,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ПокупкиТранзитСтрокаПоиска</source>
+      <source>ПокупкиТранзит</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1696,7 +1696,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ПокупкиТранзитСостояниеПросмотра</source>
+      <source>ПокупкиТранзит</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1735,7 +1735,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ПокупкиТранзитУправлениеПоиском</source>
+      <source>ПокупкиТранзит</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

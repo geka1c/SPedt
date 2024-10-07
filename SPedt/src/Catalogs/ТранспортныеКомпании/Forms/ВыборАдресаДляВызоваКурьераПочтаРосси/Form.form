@@ -293,7 +293,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокАдресовСтрокаПоиска</source>
+      <source>СписокАдресов</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -332,7 +332,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокАдресовСостояниеПросмотра</source>
+      <source>СписокАдресов</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -371,7 +371,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СписокАдресовУправлениеПоиском</source>
+      <source>СписокАдресов</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -631,7 +631,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокДатаВремяСтрокаПоиска</source>
+      <source>СписокДатаВремя</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -670,7 +670,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокДатаВремяСостояниеПросмотра</source>
+      <source>СписокДатаВремя</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -709,7 +709,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СписокДатаВремяУправлениеПоиском</source>
+      <source>СписокДатаВремя</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

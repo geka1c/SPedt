@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78f25435-bd8b-40a3-bc05-17474fa961d8">
+  <name>ВидыОтправлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отправлений</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

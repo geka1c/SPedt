@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8c3c173-026e-4390-bbae-ae85d94b5012">
+  <name>mobileСинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile синхронизация данных через универсальный формат регистрация документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.СинхронизацияМобильноеПриложение</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбработчикиПодкисокНаСобытия.mobileСинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияДокументаПередЗаписью</handler>
+</mdclass:EventSubscription>

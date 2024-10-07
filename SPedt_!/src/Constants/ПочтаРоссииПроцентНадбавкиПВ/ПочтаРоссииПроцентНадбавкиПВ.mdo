@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf60a5cc-4bf1-482f-a7ae-11b509dfe422">
+  <producedTypes>
+    <managerType typeId="9541a5d7-c1dc-4829-908c-9fdf6fc877b4" valueTypeId="e89b85d8-fa9e-4d85-8f06-7c03d0ce9a0a"/>
+    <valueManagerType typeId="ff3c2b4d-bb2d-4f52-8f3d-b418664ca783" valueTypeId="40235f6c-da65-4859-a292-eab7ce52ec49"/>
+    <valueKeyType typeId="89a1fbfd-9f77-4247-8eab-9c6286604b3d" valueTypeId="afc4f340-46cd-4175-8914-3bd00f9ebf6d"/>
+  </producedTypes>
+  <name>ПочтаРоссииПроцентНадбавкиПВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Почта россии процент надбавки ПВ</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

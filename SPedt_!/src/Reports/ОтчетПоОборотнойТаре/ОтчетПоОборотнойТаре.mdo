@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61dc4a1a-3946-4faf-9793-9ecd40c7465c">
+  <producedTypes>
+    <objectType typeId="6dc1aad7-ac90-4b5c-8ccc-7de76adb7baa" valueTypeId="85886506-5393-4e60-97a5-630ef4f1524e"/>
+    <managerType typeId="5feafd48-b515-40cd-904e-930cfffc2577" valueTypeId="aeee2294-4e3f-4747-aaa6-524df362aa50"/>
+  </producedTypes>
+  <name>ОтчетПоОборотнойТаре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по оборотной таре</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоОборотнойТаре.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c45a0061-5de2-4c41-836e-5fe5c92b0ad2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

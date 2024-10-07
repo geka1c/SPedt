@@ -234,7 +234,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СводОшибокСтрокаПоиска</source>
+      <source>СводОшибок</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -273,7 +273,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СводОшибокСостояниеПросмотра</source>
+      <source>СводОшибок</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -312,7 +312,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СводОшибокУправлениеПоиском</source>
+      <source>СводОшибок</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

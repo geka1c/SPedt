@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="686fea17-5722-4217-850a-2b501313f243">
+  <producedTypes>
+    <selectionType typeId="1d8411cd-e995-4594-9077-420ea77ed074" valueTypeId="cba221ab-7e17-4453-a95c-eb22b8983ffd"/>
+    <listType typeId="e0e526e6-f19c-403a-ab9d-9a2d71080415" valueTypeId="676dff22-e542-4ba4-89f4-f670e92ff230"/>
+    <managerType typeId="c83fea73-d2c1-43b6-91dc-07bbfe496b54" valueTypeId="5ecc53ca-9d4d-4332-810d-64e3ee8f0b16"/>
+    <recordSetType typeId="d6dfb574-aced-4a91-99d5-17eea1258e0a" valueTypeId="05ba9c38-2278-4262-a00a-80142018c4fe"/>
+    <recordKeyType typeId="23c2d960-6e68-48f1-9fa3-34c66f678ceb" valueTypeId="b447e0bd-114e-4e59-b7fd-94cad1542c19"/>
+    <recordType typeId="976120cd-3f66-4a40-b2d3-53a6e24a0771" valueTypeId="94164e79-b54c-4dc7-85b1-e85b65c8d1d3"/>
+    <recordManagerType typeId="96a544d9-2487-4ba1-b061-b65636359647" valueTypeId="679d0b21-d205-4f82-9f7d-53d1e6137ab3"/>
+  </producedTypes>
+  <name>ОшибочныеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибочные заказы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5ee94ff6-539b-402f-b555-6838b7c476c1">
+    <name>Виновник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виновник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТочкиРаздачи</types>
+      <types>String</types>
+      <types>CatalogRef.Организации</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1ecc3113-601b-41d6-b898-1bfb9d175cbf">
+    <name>Установлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установлен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="41f3731a-d9e2-4740-9389-1c159b1a8bcc">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипыЗаказа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

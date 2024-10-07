@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="784da1f1-15e2-4058-9314-38b26d9deaf8">
+  <name>ПотерянныеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потерянные заказы</value>
+  </synonym>
+  <methodName>CommonModule.СП_ПотерянныеЗаказы.СформироватьТекущийДокумент</methodName>
+  <description>Расчет потерянных заказов</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

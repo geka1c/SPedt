@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="338bef18-284b-47de-8b49-1ec29e7fb91a">
+  <producedTypes>
+    <managerType typeId="e24aeee4-0ae1-42e6-854a-605aec622fc1" valueTypeId="3e0ec7f8-2476-4391-8c0f-d4cd3d5137ad"/>
+    <valueManagerType typeId="5bcc4941-e396-4515-bc9f-bcf8c65b64a4" valueTypeId="be6dd134-f997-41f8-8b44-43f0e4e42279"/>
+    <valueKeyType typeId="13c179e9-5709-4df8-a922-1b9e8381ae80" valueTypeId="2b30354a-7fcc-44f3-96c8-c896046902b8"/>
+  </producedTypes>
+  <name>ИспользоватьТранспортныеКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать транспортные компании</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

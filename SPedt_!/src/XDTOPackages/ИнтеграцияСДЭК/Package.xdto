@@ -1,0 +1,112 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.integration.cdek.ru">
+	<objectType name="DeliveryRequest">
+		<property name="Number" type="xs:string" form="Attribute"/>
+		<property name="Date" type="xs:date" form="Attribute"/>
+		<property name="Account" type="xs:string" form="Attribute"/>
+		<property name="Secure" type="xs:string" form="Attribute"/>
+		<property name="OrderCount" type="xs:integer" form="Attribute"/>
+		<property name="Currency" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Order" type="d3p1:DeliveryRequest.Order" lowerBound="0" upperBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="DeliveryRequest.Order">
+		<property name="Number" type="xs:string" form="Attribute"/>
+		<property name="SendCityCode" type="xs:integer" form="Attribute"/>
+		<property name="RecCityCode" type="xs:integer" form="Attribute"/>
+		<property name="DateInvoice" type="xs:date" form="Attribute"/>
+		<property name="ShipperName" type="xs:string" form="Attribute"/>
+		<property name="ShipperAddress" type="xs:string" form="Attribute"/>
+		<property name="RecipientName" type="xs:string" form="Attribute"/>
+		<property name="RecipientEmail" type="xs:string" form="Attribute"/>
+		<property name="Phone" type="xs:string" form="Attribute"/>
+		<property name="TariffTypeCode" type="xs:integer" form="Attribute"/>
+		<property name="DeliveryRecipientCost" type="xs:float" form="Attribute"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Seller" type="d3p1:DeliveryRequest.Order.Seller"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Address" type="d3p1:DeliveryRequest.Order.Address"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Package" type="d3p1:DeliveryRequest.Order.Package"/>
+	</objectType>
+	<objectType name="DeliveryRequest.Order.Seller">
+		<property name="Address" type="xs:string" form="Attribute"/>
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="Comment" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="DeliveryRequest.Order.Address">
+		<property name="PvzCode" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="DeliveryRequest.Order.Package">
+		<property name="Number" type="xs:string" form="Attribute"/>
+		<property name="BarCode" type="xs:string" form="Attribute"/>
+		<property name="Weight" type="xs:integer" form="Attribute"/>
+		<property name="SizeA" type="xs:integer" form="Attribute"/>
+		<property name="SizeB" type="xs:integer" form="Attribute"/>
+		<property name="SizeC" type="xs:integer" form="Attribute"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Item" type="d3p1:DeliveryRequest.Order.Package.Item" upperBound="-1"/>
+	</objectType>
+	<objectType name="DeliveryRequest.Order.Package.Item">
+		<property name="Amount" type="xs:integer" form="Attribute"/>
+		<property name="WareKey" type="xs:string" form="Attribute"/>
+		<property name="Cost" type="xs:float" form="Attribute"/>
+		<property name="Payment" type="xs:float" form="Attribute"/>
+		<property name="Weight" type="xs:integer" form="Attribute"/>
+		<property name="Comment" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="StatusReport">
+		<property name="DateFirst" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="DateLast" type="xs:string" nillable="true" form="Attribute"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Order" type="d3p1:StatusReport.Order" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property name="ErrorCode" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Msg" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="StatusReport.Order" ordered="false">
+		<property name="ActNumber" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="Number" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="DispatchNumber" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="DeliveryDate" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="RecipientName" type="xs:string" nillable="true" form="Attribute"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Status" type="d3p1:StatusReport.Order.Status" nillable="true"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Reason" type="d3p1:StatusReport.Order.Reason" nillable="true"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="DelayReason" type="d3p1:StatusReport.Order.Reason" nillable="true"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Call" type="d3p1:StatusReport.Order.Call" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Status" ordered="false">
+		<property name="Date" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="Code" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="Description" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="CityCode" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="CityName" type="xs:string" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Reason" ordered="false">
+		<property name="Code" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="Description" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="Date" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="distributors">
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="StatusReport" type="d3p1:StatusReport" lowerBound="0" nillable="true" form="Element"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Call" ordered="false">
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="CallDelay" type="d3p1:StatusReport.Order.Call.CallDelay" lowerBound="0" nillable="true" form="Element"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="CallGood" type="d3p1:StatusReport.Order.Call.CallGood" lowerBound="0" nillable="true" form="Element"/>
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="CallFail" type="d3p1:StatusReport.Order.Call.CallFail" lowerBound="0" nillable="true" form="Element"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Call.CallDelay">
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Delay" type="d3p1:StatusReport.Order.Call.CallDelay.Delay" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Call.CallGood">
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Good" type="d3p1:StatusReport.Order.Call.CallGood.Good" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Call.CallFail">
+		<property xmlns:d3p1="http://www.integration.cdek.ru" name="Fail" type="d3p1:StatusReport.Order.Call.CallFail.Fail" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Call.CallDelay.Delay" ordered="false">
+		<property name="Date" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="DateNext" type="xs:string" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Call.CallGood.Good" ordered="false">
+		<property name="Date" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="DateDeliv" type="xs:string" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="StatusReport.Order.Call.CallFail.Fail" ordered="false">
+		<property name="Date" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="ReasonCode" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="ReasonDescription" type="xs:string" nillable="true" form="Attribute"/>
+	</objectType>
+</package>

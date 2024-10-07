@@ -2155,7 +2155,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>КонтактыПанелиНавигацииСтрокаПоиска</source>
+                <source>КонтактыПанелиНавигации</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -2194,7 +2194,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>КонтактыПанелиНавигацииСостояниеПросмотра</source>
+                <source>КонтактыПанелиНавигации</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -2233,7 +2233,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>КонтактыПанелиНавигацииУправлениеПоиском</source>
+                <source>КонтактыПанелиНавигации</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3064,7 +3064,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>ПредметыПанельНавигацииСтрокаПоиска</source>
+                <source>ПредметыПанельНавигации</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3103,7 +3103,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>ПредметыПанельНавигацииСостояниеПросмотра</source>
+                <source>ПредметыПанельНавигации</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3142,7 +3142,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>ПредметыПанельНавигацииУправлениеПоиском</source>
+                <source>ПредметыПанельНавигации</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3769,7 +3769,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>ЗакладкиСтрокаПоиска</source>
+                <source>Закладки</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3808,7 +3808,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>ЗакладкиСостояниеПросмотра</source>
+                <source>Закладки</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3847,7 +3847,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>ЗакладкиУправлениеПоиском</source>
+                <source>Закладки</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -4369,7 +4369,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>СвойстваСтрокаПоиска</source>
+                <source>Свойства</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -4408,7 +4408,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>СвойстваСостояниеПросмотра</source>
+                <source>Свойства</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -4447,7 +4447,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>СвойстваУправлениеПоиском</source>
+                <source>Свойства</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -5073,7 +5073,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>ПапкиСтрокаПоиска</source>
+                <source>Папки</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -5112,7 +5112,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>ПапкиСостояниеПросмотра</source>
+                <source>Папки</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -5151,7 +5151,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>ПапкиУправлениеПоиском</source>
+                <source>Папки</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -5902,7 +5902,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>КатегорииСтрокаПоиска</source>
+                <source>Категории</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -5941,7 +5941,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>КатегорииСостояниеПросмотра</source>
+                <source>Категории</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -5980,7 +5980,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>КатегорииУправлениеПоиском</source>
+                <source>Категории</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -7121,7 +7121,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>СписокСтрокаПоиска</source>
+            <source>Список</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -7160,7 +7160,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>СписокСостояниеПросмотра</source>
+            <source>Список</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -7199,7 +7199,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>СписокУправлениеПоиском</source>
+            <source>Список</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>

@@ -437,7 +437,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ИсторияСтрокаПоиска</source>
+          <source>История</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -476,7 +476,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ИсторияСостояниеПросмотра</source>
+          <source>История</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -515,7 +515,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ИсторияУправлениеПоиском</source>
+          <source>История</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1010,7 +1010,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПротоколСтрокаПоиска</source>
+          <source>Протокол</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1049,7 +1049,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПротоколСостояниеПросмотра</source>
+          <source>Протокол</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1088,7 +1088,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПротоколУправлениеПоиском</source>
+          <source>Протокол</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

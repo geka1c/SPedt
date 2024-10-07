@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9229b4cd-7e4b-434b-a7b8-e7c3ea124710">
+  <producedTypes>
+    <containerType typeId="96d80667-c03d-46e6-9455-edb3159e12c4" valueTypeId="914be1f2-63a5-4388-8c7d-ee007e3256aa"/>
+  </producedTypes>
+  <name>Заказ100сп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ100сп</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Посылки</types>
+    <types>CatalogRef.Коробки</types>
+  </type>
+</mdclass:DefinedType>

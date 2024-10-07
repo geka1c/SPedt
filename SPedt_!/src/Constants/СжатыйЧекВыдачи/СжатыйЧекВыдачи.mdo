@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bec56e8-b578-4f9b-856b-160cf86a9990">
+  <producedTypes>
+    <managerType typeId="c6e2eea9-49de-48ed-a8c5-7cf793f9c101" valueTypeId="1c9c01db-83da-4ecc-82c3-6c8564d5056b"/>
+    <valueManagerType typeId="8c5a76df-c9f9-4b09-b6d8-401c984d6eb1" valueTypeId="7ea20bfa-73c0-4662-b0a4-bbf4f340d204"/>
+    <valueKeyType typeId="a40eb987-1133-4d60-811d-3d8f2035dfc5" valueTypeId="54009232-c7be-45a3-bfeb-f17a4f28a75b"/>
+  </producedTypes>
+  <name>СжатыйЧекВыдачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сжатый чек выдачи</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>При установке чек выдачи заказа участнику будет печататься в урезаном варианте для экономии печатной ленты</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

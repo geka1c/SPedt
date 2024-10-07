@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3537a3e5-8534-4ebf-9f59-22259a6d3b9d">
+  <name>mobileСинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile синхронизация данных через универсальный формат регистрация удаления</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.КартыУчастников</types>
+    <types>CatalogObject.ТочкиРаздачи</types>
+    <types>DocumentObject.СинхронизацияМобильноеПриложение</types>
+    <types>CatalogObject.Габариты</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбработчикиПодкисокНаСобытия.mobileСинхронизацияДанныхЧерезУниверсальныйФорматРегистрацияУдаленияПередУдалением</handler>
+</mdclass:EventSubscription>

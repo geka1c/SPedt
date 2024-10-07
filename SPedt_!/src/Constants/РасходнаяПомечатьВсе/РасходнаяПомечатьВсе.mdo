@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3ef082b-2593-49b5-89ca-904b70956dcd">
+  <producedTypes>
+    <managerType typeId="5a510719-f129-4c4c-bb75-9bb11f8aa92c" valueTypeId="10a7b452-e8bf-4632-b664-fa0ce72ce5ed"/>
+    <valueManagerType typeId="1137e935-7674-45d1-8613-3e1b67812013" valueTypeId="0e1e5cec-7f25-4ba9-94ea-013f2d0a6c89"/>
+    <valueKeyType typeId="95faba54-8735-49f4-ba34-de2162270517" valueTypeId="2f20303a-7ca6-4253-b560-b28e414e0ebf"/>
+  </producedTypes>
+  <name>РасходнаяПомечатьВсе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходная помечать все</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Возможность помечать все строки документа к выдаче</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

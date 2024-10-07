@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c612abd8-a565-4523-8f8a-fc236da92625">
+  <name>ПФ_MXL_СупперГруппа</name>
+  <synonym>
+    <key>ru</key>
+    <value>П ф MXL суппер группа</value>
+  </synonym>
+</mdclass:CommonTemplate>

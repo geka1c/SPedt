@@ -802,7 +802,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПоляДорожки1СтрокаПоиска</source>
+          <source>ПоляДорожки1</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -841,7 +841,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПоляДорожки1СостояниеПросмотра</source>
+          <source>ПоляДорожки1</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -880,7 +880,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПоляДорожки1УправлениеПоиском</source>
+          <source>ПоляДорожки1</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1717,7 +1717,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПоляДорожки2СтрокаПоиска</source>
+          <source>ПоляДорожки2</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1756,7 +1756,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПоляДорожки2СостояниеПросмотра</source>
+          <source>ПоляДорожки2</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1795,7 +1795,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПоляДорожки2УправлениеПоиском</source>
+          <source>ПоляДорожки2</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2632,7 +2632,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПоляДорожки3СтрокаПоиска</source>
+          <source>ПоляДорожки3</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2671,7 +2671,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПоляДорожки3СостояниеПросмотра</source>
+          <source>ПоляДорожки3</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2710,7 +2710,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПоляДорожки3УправлениеПоиском</source>
+          <source>ПоляДорожки3</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

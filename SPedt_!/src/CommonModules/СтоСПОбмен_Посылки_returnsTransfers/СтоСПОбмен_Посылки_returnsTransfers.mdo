@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03322512-5732-4684-9ae2-adc514e3d508">
+  <name>СтоСПОбмен_Посылки_returnsTransfers</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сто СПОбмен посылки returns transfers</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23413849-6dfc-4d40-916e-a57a6fb23a2b">
+  <producedTypes>
+    <selectionType typeId="34e67a6c-7814-4501-88c7-97a4ce241e43" valueTypeId="9bf8a803-7e74-419d-894d-8a6121c581ed"/>
+    <listType typeId="158544d1-f872-4811-9822-ac72a911f77d" valueTypeId="6ad8b7a9-f07c-4734-be3c-f07725ccc7ab"/>
+    <managerType typeId="42acce28-41b6-4e87-9216-62524a73fd81" valueTypeId="1c6a4b0a-3ca1-4937-80d0-6ae54868b769"/>
+  </producedTypes>
+  <name>Супергруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Супергруппы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.Супергруппы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.УпаковатьЗаказы</registeredDocuments>
+  <registeredDocuments>Document.ВыдачаТранзита</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="a50fbf90-5ed3-4a11-846f-15222454cb09">
+    <name>ПВНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПВНазначения</value>
+    </synonym>
+    <references>Document.УпаковатьЗаказы.Attribute.ТочкаНазначения</references>
+    <references>Document.ВыдачаТранзита.Attribute.ТочкаНазначения</references>
+  </columns>
+  <columns uuid="a1a5cec4-e03c-428a-80e0-6853f795b877">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <references>Document.УпаковатьЗаказы.Attribute.СтоимостьИтого</references>
+    <references>Document.ВыдачаТранзита.Attribute.СтоимостьИтого</references>
+  </columns>
+  <columns uuid="70137268-ac3b-4552-8571-87288a3e72fd">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <references>Document.УпаковатьЗаказы.Attribute.КоличествоИтого</references>
+    <references>Document.ВыдачаТранзита.Attribute.КоличествоИтого</references>
+  </columns>
+  <columns uuid="9e7d6123-5827-4828-8ce8-9c2a3ee5539e">
+    <name>Супергруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Супергруппа</value>
+    </synonym>
+    <references>Document.УпаковатьЗаказы.Attribute.Супергруппа</references>
+    <references>Document.ВыдачаТранзита.Attribute.Супергруппа</references>
+  </columns>
+  <forms uuid="7d12449f-b4ae-4044-8df9-21aacffe9fb5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

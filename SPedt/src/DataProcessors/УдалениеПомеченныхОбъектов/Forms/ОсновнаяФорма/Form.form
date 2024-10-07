@@ -985,7 +985,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ДеревоПомеченныхНаУдалениеСтрокаПоиска</source>
+          <source>ДеревоПомеченныхНаУдаление</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1024,7 +1024,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ДеревоПомеченныхНаУдалениеСостояниеПросмотра</source>
+          <source>ДеревоПомеченныхНаУдаление</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1063,7 +1063,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ДеревоПомеченныхНаУдалениеУправлениеПоиском</source>
+          <source>ДеревоПомеченныхНаУдаление</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1706,7 +1706,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>НеУдаленныеСтрокаПоиска</source>
+              <source>НеУдаленные</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1745,7 +1745,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>НеУдаленныеСостояниеПросмотра</source>
+              <source>НеУдаленные</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1784,7 +1784,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>НеУдаленныеУправлениеПоиском</source>
+              <source>НеУдаленные</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2399,7 +2399,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <source>СвязиНеУдаленныхСтрокаПоиска</source>
+                  <source>СвязиНеУдаленных</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2438,7 +2438,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
-                  <source>СвязиНеУдаленныхСостояниеПросмотра</source>
+                  <source>СвязиНеУдаленных</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2477,7 +2477,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
-                  <source>СвязиНеУдаленныхУправлениеПоиском</source>
+                  <source>СвязиНеУдаленных</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>

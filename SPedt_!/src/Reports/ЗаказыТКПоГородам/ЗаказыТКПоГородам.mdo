@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="545f1601-5de8-4a02-a49e-fb9ef785ae35">
+  <producedTypes>
+    <objectType typeId="9e5e2a6a-fc61-4df5-b033-941a718f015a" valueTypeId="50a1852c-e3a6-4a02-9d89-f372e4e20e33"/>
+    <managerType typeId="68c12ba1-85eb-477f-aa41-6be04d26e4bd" valueTypeId="5b5c6484-8bb6-4597-b48f-45c1b1721164"/>
+  </producedTypes>
+  <name>ЗаказыТКПоГородам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы ТКПо городам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗаказыТКПоГородам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="796e246d-33c1-4fc2-8b78-081535f84acb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

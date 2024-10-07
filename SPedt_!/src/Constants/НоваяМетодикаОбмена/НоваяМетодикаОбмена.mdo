@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef0812c8-c3f2-4642-9402-f46c98a33753">
+  <producedTypes>
+    <managerType typeId="c84ed893-eaa0-4421-9def-dd4fb6f6bfca" valueTypeId="cf5e42fa-9ed7-457a-bfc6-04f242b182ae"/>
+    <valueManagerType typeId="73b00a8f-5a03-4ae2-838c-f8e5bbe83301" valueTypeId="95faa13e-5fde-4a7c-a95a-cc09e8b9b6cb"/>
+    <valueKeyType typeId="97bc6086-f08b-4281-a311-a9c1b313e08c" valueTypeId="76c89fa6-c4c7-4124-8841-7897df41d8e7"/>
+  </producedTypes>
+  <name>НоваяМетодикаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новая методика обмена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

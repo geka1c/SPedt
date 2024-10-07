@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e105de2-418c-4dd4-a25d-d4281ccdda71">
+  <producedTypes>
+    <managerType typeId="31554cd9-3105-4392-9729-d150b0a83cd6" valueTypeId="0e24f4c4-1150-4f0c-a895-d04212e008b8"/>
+    <valueManagerType typeId="9953d535-b3b0-485c-8e00-2e71297b086b" valueTypeId="ff372ce0-39a3-4327-98d7-fcc82a9adf56"/>
+    <valueKeyType typeId="32218d14-05b4-4bfa-aac4-b08db271de31" valueTypeId="5da55c2e-b4fb-4424-8e6e-340fb476a594"/>
+  </producedTypes>
+  <name>ПунктВыдачиТранзита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пункт выдачи транзита</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СегментыПунктовВыдачи</types>
+    <types>CatalogRef.ТочкиРаздачи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Пункт выдачи/ сегмент пунктов выдачи,  устанвливается по умолчанию для передачи транзитных заказов</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

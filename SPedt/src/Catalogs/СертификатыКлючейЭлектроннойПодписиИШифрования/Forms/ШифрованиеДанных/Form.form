@@ -473,7 +473,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>СертификатыШифрованияСтрокаПоиска</source>
+            <source>СертификатыШифрования</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -512,7 +512,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>СертификатыШифрованияСостояниеПросмотра</source>
+            <source>СертификатыШифрования</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -551,7 +551,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>СертификатыШифрованияУправлениеПоиском</source>
+            <source>СертификатыШифрования</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -832,7 +832,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>НаборСертификатовСтрокаПоиска</source>
+            <source>НаборСертификатов</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -871,7 +871,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>НаборСертификатовСостояниеПросмотра</source>
+            <source>НаборСертификатов</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -910,7 +910,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>НаборСертификатовУправлениеПоиском</source>
+            <source>НаборСертификатов</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>

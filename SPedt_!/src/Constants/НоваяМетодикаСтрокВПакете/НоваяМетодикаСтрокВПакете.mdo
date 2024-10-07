@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94e27fb0-11c1-44ca-a895-27e27f450dea">
+  <producedTypes>
+    <managerType typeId="eb9df622-7adf-4c10-9522-2d6df5bac840" valueTypeId="3cdd3113-b12d-472b-9b5b-3f01e07b9e4d"/>
+    <valueManagerType typeId="c4a4d626-47d1-4b0b-86e6-ff21abf297e5" valueTypeId="c6d7e741-130d-45ea-a474-7849d4a48838"/>
+    <valueKeyType typeId="3c93eff0-af2c-470f-81df-b0109257bc97" valueTypeId="bcf4905c-066f-46a4-bfc5-5dac4fcef00a"/>
+  </producedTypes>
+  <name>НоваяМетодикаСтрокВПакете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новая методика строк в пакете</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

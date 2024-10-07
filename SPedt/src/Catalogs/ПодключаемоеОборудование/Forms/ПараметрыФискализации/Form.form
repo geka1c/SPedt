@@ -2360,7 +2360,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ПричиныИзмененияСведенийОККТСтрокаПоиска</source>
+        <source>ПричиныИзмененияСведенийОККТ</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -2399,7 +2399,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ПричиныИзмененияСведенийОККТСостояниеПросмотра</source>
+        <source>ПричиныИзмененияСведенийОККТ</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -2438,7 +2438,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ПричиныИзмененияСведенийОККТУправлениеПоиском</source>
+        <source>ПричиныИзмененияСведенийОККТ</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

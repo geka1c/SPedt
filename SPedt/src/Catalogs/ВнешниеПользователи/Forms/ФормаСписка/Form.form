@@ -856,7 +856,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>ГруппыВнешнихПользователейСтрокаПоиска</source>
+            <source>ГруппыВнешнихПользователей</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -895,7 +895,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>ГруппыВнешнихПользователейСостояниеПросмотра</source>
+            <source>ГруппыВнешнихПользователей</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -934,7 +934,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>ГруппыВнешнихПользователейУправлениеПоиском</source>
+            <source>ГруппыВнешнихПользователей</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1380,7 +1380,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>ВнешниеПользователиСписокСтрокаПоиска</source>
+            <source>ВнешниеПользователиСписок</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1419,7 +1419,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>ВнешниеПользователиСписокСостояниеПросмотра</source>
+            <source>ВнешниеПользователиСписок</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1458,7 +1458,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>ВнешниеПользователиСписокУправлениеПоиском</source>
+            <source>ВнешниеПользователиСписок</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2064,7 +2064,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>СписокВыбранныхПользователейИГруппСтрокаПоиска</source>
+          <source>СписокВыбранныхПользователейИГрупп</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2103,7 +2103,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>СписокВыбранныхПользователейИГруппСостояниеПросмотра</source>
+          <source>СписокВыбранныхПользователейИГрупп</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2142,7 +2142,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>СписокВыбранныхПользователейИГруппУправлениеПоиском</source>
+          <source>СписокВыбранныхПользователейИГрупп</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

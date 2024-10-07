@@ -1130,7 +1130,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ОбъектКомандыСтрокаПоиска</source>
+          <source>ОбъектКоманды</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1169,7 +1169,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ОбъектКомандыСостояниеПросмотра</source>
+          <source>ОбъектКоманды</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1208,7 +1208,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ОбъектКомандыУправлениеПоиском</source>
+          <source>ОбъектКоманды</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1841,7 +1841,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ВариантыДополнительногоОтчетаСтрокаПоиска</source>
+              <source>ВариантыДополнительногоОтчета</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1880,7 +1880,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ВариантыДополнительногоОтчетаСостояниеПросмотра</source>
+              <source>ВариантыДополнительногоОтчета</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1919,7 +1919,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ВариантыДополнительногоОтчетаУправлениеПоиском</source>
+              <source>ВариантыДополнительногоОтчета</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3042,7 +3042,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>КомандыЗагрузкиСтрокаПоиска</source>
+          <source>КомандыЗагрузки</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3081,7 +3081,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>КомандыЗагрузкиСостояниеПросмотра</source>
+          <source>КомандыЗагрузки</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3120,7 +3120,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>КомандыЗагрузкиУправлениеПоиском</source>
+          <source>КомандыЗагрузки</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

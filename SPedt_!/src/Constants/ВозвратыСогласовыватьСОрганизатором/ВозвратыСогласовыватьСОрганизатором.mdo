@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37720eaf-eb32-425b-afac-291334f54083">
+  <producedTypes>
+    <managerType typeId="8cf185a0-65a0-45dd-9367-686b5c6a408e" valueTypeId="c35d15f2-18da-4ff8-a821-7af89d15172e"/>
+    <valueManagerType typeId="ba77394f-6893-4eab-b4ed-8550cd93ef4c" valueTypeId="35b83fe5-9097-4f44-8136-a6135b77fd1e"/>
+    <valueKeyType typeId="1aaf0bfa-bfea-4810-9add-c6f9139214a1" valueTypeId="bda5b71d-7dcd-485f-b88f-07214dcb737e"/>
+  </producedTypes>
+  <name>ВозвратыСогласовыватьСОрганизатором</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возвраты согласовывать с организатором</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>На возврат можно принимать только согласованные с организатором заказы</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

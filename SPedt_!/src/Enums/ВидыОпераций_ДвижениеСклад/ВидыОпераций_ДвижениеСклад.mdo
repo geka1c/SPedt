@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="448c9269-e47e-496d-977e-bf12cafe47e5">
+  <producedTypes>
+    <refType typeId="ccd70792-cb51-43b0-b91f-22b96791b992" valueTypeId="4d49e2dd-0aea-4e7e-8923-aa04c2db932c"/>
+    <listType typeId="e0a8e9ef-3ac1-4801-9565-e97ae7aa9fb5" valueTypeId="23481a94-ac85-495a-981a-0854a9f57ecc"/>
+    <managerType typeId="8ed156f7-0fe5-42b4-935a-aaa8d38ff4c7" valueTypeId="b3808901-7476-4410-9413-26f350955d1f"/>
+  </producedTypes>
+  <name>ВидыОпераций_ДвижениеСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций движение склад</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7fec5a47-2857-4400-b912-0351f36d682c">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение на складе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58a5347d-98b9-4bed-9e71-7875ede6267b">
+    <name>Передача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача  организатору (списание)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43cee8e8-d6d1-42c0-93e4-5f3b4f8eb11c">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Со склада на возврат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9db5f72e-61b0-43b0-b15d-1fce24d84c83">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание со склада</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80f601dd-1b81-4a00-ae2d-2f85dd086ebe">
+    <name>ПередачаНаТранзит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Со склада на транзит</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

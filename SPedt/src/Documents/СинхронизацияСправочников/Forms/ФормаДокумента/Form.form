@@ -634,7 +634,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПараметрыЗагрузкиСтрокаПоиска</source>
+          <source>ПараметрыЗагрузки</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -673,7 +673,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПараметрыЗагрузкиСостояниеПросмотра</source>
+          <source>ПараметрыЗагрузки</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -712,7 +712,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПараметрыЗагрузкиУправлениеПоиском</source>
+          <source>ПараметрыЗагрузки</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1254,7 +1254,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПараметрыОтдельныеЗапросыСтрокаПоиска</source>
+          <source>ПараметрыОтдельныеЗапросы</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1293,7 +1293,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПараметрыОтдельныеЗапросыСостояниеПросмотра</source>
+          <source>ПараметрыОтдельныеЗапросы</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1332,7 +1332,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПараметрыОтдельныеЗапросыУправлениеПоиском</source>
+          <source>ПараметрыОтдельныеЗапросы</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

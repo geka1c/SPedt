@@ -1091,7 +1091,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ЗапросыОплатыСтрокаПоиска</source>
+          <source>ЗапросыОплаты</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1130,7 +1130,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ЗапросыОплатыСостояниеПросмотра</source>
+          <source>ЗапросыОплаты</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1169,7 +1169,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ЗапросыОплатыУправлениеПоиском</source>
+          <source>ЗапросыОплаты</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1596,7 +1596,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ЗапросыОтсрочкиСтрокаПоиска</source>
+          <source>ЗапросыОтсрочки</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1635,7 +1635,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ЗапросыОтсрочкиСостояниеПросмотра</source>
+          <source>ЗапросыОтсрочки</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1674,7 +1674,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ЗапросыОтсрочкиУправлениеПоиском</source>
+          <source>ЗапросыОтсрочки</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2330,7 +2330,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ЗапросыИсключенияСтрокаПоиска</source>
+          <source>ЗапросыИсключения</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2369,7 +2369,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ЗапросыИсключенияСостояниеПросмотра</source>
+          <source>ЗапросыИсключения</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2408,7 +2408,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ЗапросыИсключенияУправлениеПоиском</source>
+          <source>ЗапросыИсключения</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3066,7 +3066,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ЗапросыУдаленияСтрокаПоиска</source>
+          <source>ЗапросыУдаления</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3105,7 +3105,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ЗапросыУдаленияСостояниеПросмотра</source>
+          <source>ЗапросыУдаления</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3144,7 +3144,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ЗапросыУдаленияУправлениеПоиском</source>
+          <source>ЗапросыУдаления</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3659,7 +3659,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПротоколыПередачСтрокаПоиска</source>
+          <source>ПротоколыПередач</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3698,7 +3698,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПротоколыПередачСостояниеПросмотра</source>
+          <source>ПротоколыПередач</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3737,7 +3737,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПротоколыПередачУправлениеПоиском</source>
+          <source>ПротоколыПередач</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

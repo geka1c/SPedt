@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af0383c0-190a-460c-b988-a25adff47845">
+  <producedTypes>
+    <managerType typeId="9fccf089-ce33-452b-b607-10fbbb4a0c6d" valueTypeId="c3b4ad62-fe43-4ff9-81e5-515ce6915ba1"/>
+    <valueManagerType typeId="a873b415-a2bd-4b96-b909-bbfc4e24f3e6" valueTypeId="afa42e0b-9267-4300-9ca7-be258801a484"/>
+    <valueKeyType typeId="10fa8660-efe4-422b-95b9-7eec810fcf02" valueTypeId="7a6e8b56-2323-4cef-9074-939d663a4d77"/>
+  </producedTypes>
+  <name>ГлубинаОбменаВМесяцах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глубина обмена в месяцах</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -716,7 +716,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ОшибкиСтрокаПоиска</source>
+          <source>Ошибки</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -755,7 +755,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ОшибкиСостояниеПросмотра</source>
+          <source>Ошибки</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -794,7 +794,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ОшибкиУправлениеПоиском</source>
+          <source>Ошибки</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1349,7 +1349,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ГруппаЗаказовНеНайденаСтрокаПоиска</source>
+          <source>ГруппаЗаказовНеНайдена</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1388,7 +1388,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ГруппаЗаказовНеНайденаСостояниеПросмотра</source>
+          <source>ГруппаЗаказовНеНайдена</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1427,7 +1427,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ГруппаЗаказовНеНайденаУправлениеПоиском</source>
+          <source>ГруппаЗаказовНеНайдена</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1982,7 +1982,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ГрупповойСтикерНеНайденПоПереданномуНомеруСтрокаПоиска</source>
+          <source>ГрупповойСтикерНеНайденПоПереданномуНомеру</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2021,7 +2021,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ГрупповойСтикерНеНайденПоПереданномуНомеруСостояниеПросмотра</source>
+          <source>ГрупповойСтикерНеНайденПоПереданномуНомеру</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2060,7 +2060,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ГрупповойСтикерНеНайденПоПереданномуНомеруУправлениеПоиском</source>
+          <source>ГрупповойСтикерНеНайденПоПереданномуНомеру</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2615,7 +2615,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>НеУдалосьОбновитьЗаказСтрокаПоиска</source>
+          <source>НеУдалосьОбновитьЗаказ</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2654,7 +2654,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>НеУдалосьОбновитьЗаказСостояниеПросмотра</source>
+          <source>НеУдалосьОбновитьЗаказ</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2693,7 +2693,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>НеУдалосьОбновитьЗаказУправлениеПоиском</source>
+          <source>НеУдалосьОбновитьЗаказ</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3248,7 +3248,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПокупкаНеВалиднаСтрокаПоиска</source>
+          <source>ПокупкаНеВалидна</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3287,7 +3287,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПокупкаНеВалиднаСостояниеПросмотра</source>
+          <source>ПокупкаНеВалидна</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3326,7 +3326,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПокупкаНеВалиднаУправлениеПоиском</source>
+          <source>ПокупкаНеВалидна</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

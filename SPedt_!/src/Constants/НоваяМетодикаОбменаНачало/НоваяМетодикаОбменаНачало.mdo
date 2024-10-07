@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b2841f6-a92b-46b4-8cf1-27682a136e94">
+  <producedTypes>
+    <managerType typeId="a39bc03d-6757-4559-8b42-9100e3e48067" valueTypeId="390d3ff6-5a2e-424c-b986-34ad7d9445fe"/>
+    <valueManagerType typeId="572a41b2-4917-4ed7-be4c-60455d4280c1" valueTypeId="a1891921-f036-426a-9a1c-e0ee4015eea8"/>
+    <valueKeyType typeId="5845379e-69d2-4a50-8ef4-f0110e13dee6" valueTypeId="c3b8ac11-0972-4e12-ab56-49c29e567c1e"/>
+  </producedTypes>
+  <name>НоваяМетодикаОбменаНачало</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новая методика обмена начало</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

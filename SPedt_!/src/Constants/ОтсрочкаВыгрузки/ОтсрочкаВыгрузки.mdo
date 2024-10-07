@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="534ff9ed-88fa-4d12-9534-17599c2eb523">
+  <producedTypes>
+    <managerType typeId="a81d00f8-4b8e-4966-8ddd-99db4d8ac3d3" valueTypeId="2de35842-7d59-45e1-bf8e-2179decfa4f2"/>
+    <valueManagerType typeId="dced1c23-6729-4bf8-b977-4ffe104bfcfb" valueTypeId="a47445aa-da54-4551-b688-568e213e0062"/>
+    <valueKeyType typeId="00c80fee-4f19-4b19-9732-a436eeaa5fec" valueTypeId="ed35eb72-b8ab-4fdf-a6ef-38a1110cedcd"/>
+  </producedTypes>
+  <name>ОтсрочкаВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отсрочка выгрузки</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

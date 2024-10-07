@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46534e89-bc24-4a93-aa38-c9187b158d83">
+  <producedTypes>
+    <objectType typeId="007f52d8-542a-4955-9ace-78da253d8098" valueTypeId="60f97efa-25fb-48f4-aef8-8d4a7164551a"/>
+    <managerType typeId="85ddf23a-b96f-4965-8c72-6cd62d90f2b1" valueTypeId="5c9b0479-5028-489f-8a58-eb1f0d0a1d8a"/>
+  </producedTypes>
+  <name>ЗаказыТранспортныхКомпаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы транспортных компаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗаказыТранспортныхКомпаний.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <explanation>
+    <key>ru</key>
+    <value>Заказы принятые для передачи в доставку транспортных компаний</value>
+  </explanation>
+  <templates uuid="c7a41aea-9ab5-4893-a9f3-17b7a8a7399a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

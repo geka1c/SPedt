@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>AccumulationRegister.Возвраты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:220dea1d-d1fe-40b3-bc81-d3dc8a92d264</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ВедомостьВозвратов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.ПанельОтчетовВозвраты</commands>
+      <commands>AccumulationRegister.Возвраты.StandardCommand.OpenList</commands>
+      <commands>0:220dea1d-d1fe-40b3-bc81-d3dc8a92d264</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

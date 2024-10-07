@@ -1234,7 +1234,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>НепроведенныеДокументыСтрокаПоиска</source>
+          <source>НепроведенныеДокументы</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1273,7 +1273,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>НепроведенныеДокументыСостояниеПросмотра</source>
+          <source>НепроведенныеДокументы</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1312,7 +1312,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>НепроведенныеДокументыУправлениеПоиском</source>
+          <source>НепроведенныеДокументы</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2538,7 +2538,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>НезаполненныеРеквизитыСтрокаПоиска</source>
+          <source>НезаполненныеРеквизиты</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2577,7 +2577,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>НезаполненныеРеквизитыСостояниеПросмотра</source>
+          <source>НезаполненныеРеквизиты</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2616,7 +2616,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>НезаполненныеРеквизитыУправлениеПоиском</source>
+          <source>НезаполненныеРеквизиты</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3865,7 +3865,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>КоллизииСтрокаПоиска</source>
+          <source>Коллизии</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3904,7 +3904,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>КоллизииСостояниеПросмотра</source>
+          <source>Коллизии</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3943,7 +3943,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>КоллизииУправлениеПоиском</source>
+          <source>Коллизии</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -5107,7 +5107,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>НепринятыеПоДатеСтрокаПоиска</source>
+          <source>НепринятыеПоДате</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -5146,7 +5146,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>НепринятыеПоДатеСостояниеПросмотра</source>
+          <source>НепринятыеПоДате</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -5185,7 +5185,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>НепринятыеПоДатеУправлениеПоиском</source>
+          <source>НепринятыеПоДате</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

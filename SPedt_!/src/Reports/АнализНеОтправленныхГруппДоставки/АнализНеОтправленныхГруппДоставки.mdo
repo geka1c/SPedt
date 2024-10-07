@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36568188-95c1-4ad2-bbf8-ea301ecd47ff">
+  <producedTypes>
+    <objectType typeId="09c4f667-0bd0-4baa-8bc6-4ba1053ae947" valueTypeId="928b5ddc-948d-43eb-8aa9-5948b6901e74"/>
+    <managerType typeId="3d995ca9-6748-403e-aad4-968537d015b4" valueTypeId="1bb49999-d266-427e-938d-2346e16e406b"/>
+  </producedTypes>
+  <name>АнализНеОтправленныхГруппДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ не отправленных групп доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализНеОтправленныхГруппДоставки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f108136e-b660-4934-ac44-6ef82c1efdad">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

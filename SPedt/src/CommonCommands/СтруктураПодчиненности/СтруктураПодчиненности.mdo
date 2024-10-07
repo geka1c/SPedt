@@ -22,6 +22,7 @@
     <types>DocumentRef.УпаковатьЗаказы</types>
     <types>DocumentRef.УдалитьКассовыйЧекКоррекции</types>
     <types>DocumentRef.ОтправлениеТранзита</types>
+    <types>DocumentRef.ЗаказыДляТранзита</types>
     <types>DocumentRef.ДвижениеТранзита</types>
     <types>DocumentRef.ПакетНаСайт</types>
     <types>DocumentRef.СинхронизацияМобильноеПриложение</types>
@@ -47,7 +48,6 @@
     <types>DocumentRef.ПеремещениеВозврата</types>
     <types>DocumentRef.ЗаполнитьКоленоМаршрута</types>
     <types>DocumentRef.ПоступлениеКоробокДляРазбора</types>
-    <types>DocumentRef.ЗаказыДляТранзита</types>
   </commandParameterType>
   <representation>Auto</representation>
   <toolTip>

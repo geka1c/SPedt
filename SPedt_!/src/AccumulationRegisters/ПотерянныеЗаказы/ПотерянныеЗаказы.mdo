@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="150d2e90-c026-4978-ada0-9cc5b720a4bc">
+  <producedTypes>
+    <selectionType typeId="5d633b8d-878c-47b5-9647-53e5ef564bcb" valueTypeId="41b2b71a-c2f8-409f-9c93-ac1991e55b7b"/>
+    <listType typeId="e25c5dff-cf8e-4d3a-843f-ba9da81dea1e" valueTypeId="16b9cbe5-c7b4-4162-8db7-453a145d3dfc"/>
+    <managerType typeId="b8cb92ec-4300-472b-89f7-343b3611ced1" valueTypeId="a57953ce-e37b-4dec-aac3-b0cca60c64eb"/>
+    <recordSetType typeId="a4cadd6e-fb1f-4ee6-b982-d847f25a760e" valueTypeId="a432957d-3237-47ea-b203-ec8e14ae1cae"/>
+    <recordKeyType typeId="422157d1-0355-4e67-ad33-978ea5d04af7" valueTypeId="dde95afb-cdcf-4f54-80b8-cabc9c605a25"/>
+    <recordType typeId="e5c0fa72-de56-4f4f-826d-f6f1866d678b" valueTypeId="14bebb34-344e-4148-a807-aab5c272daff"/>
+  </producedTypes>
+  <name>ПотерянныеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потерянные заказы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a8366425-cdee-4472-a417-17d2e3523824">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0b0b131d-0dd1-44d3-9b97-f81467e71de8">
+    <name>Посылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Посылки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5801acec-7c9e-4d11-9153-7622bf217960">
+    <name>Коробка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коробка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Коробки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d57611d4-a2ca-413f-b554-76f332a4324b">
+    <name>НомерНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер накладной</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0b1a545f-37d8-44fe-a8d6-fdd22c1c70ea">
+    <name>ДатаНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата накладной</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7ca17615-e1b8-43f6-91d4-ed54baa31c7d">
+    <name>ПунктВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт выдачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТочкиРаздачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

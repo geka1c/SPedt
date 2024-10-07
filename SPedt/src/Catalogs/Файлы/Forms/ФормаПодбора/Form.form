@@ -395,7 +395,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ПапкиSearchString</source>
+        <source>Папки</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -434,7 +434,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ПапкиViewStatus</source>
+        <source>Папки</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -473,7 +473,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ПапкиSearchControl</source>
+        <source>Папки</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -965,7 +965,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>СписокSearchString</source>
+        <source>Список</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1004,7 +1004,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>СписокViewStatus</source>
+        <source>Список</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1043,7 +1043,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>СписокSearchControl</source>
+        <source>Список</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

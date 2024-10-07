@@ -359,7 +359,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПоддерживаемыеОбъектыСтрокаПоиска</source>
+          <source>ПоддерживаемыеОбъекты</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -398,7 +398,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПоддерживаемыеОбъектыСостояниеПросмотра</source>
+          <source>ПоддерживаемыеОбъекты</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -437,7 +437,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПоддерживаемыеОбъектыУправлениеПоиском</source>
+          <source>ПоддерживаемыеОбъекты</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -776,7 +776,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПоддерживаемыеОбъектыКорреспондентаСтрокаПоиска</source>
+          <source>ПоддерживаемыеОбъектыКорреспондента</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -815,7 +815,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПоддерживаемыеОбъектыКорреспондентаСостояниеПросмотра</source>
+          <source>ПоддерживаемыеОбъектыКорреспондента</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -854,7 +854,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПоддерживаемыеОбъектыКорреспондентаУправлениеПоиском</source>
+          <source>ПоддерживаемыеОбъектыКорреспондента</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

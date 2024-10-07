@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70554fb6-8095-481e-a4de-0d74daaa4a1b">
+  <name>ОбменДаными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен даными</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.ExchangePlan</picture>
+  </picture>
+  <content>CommonModule.аСПОбменССайтом</content>
+  <content>CommonModule.аСПОбменССайтомСервер</content>
+  <content>CommonCommand.НастройкиСинхронизацииДанных</content>
+  <content>CommonModule.спМенеджерОбменаЧерезУниверсальныйФормат</content>
+  <content>DataProcessor.ГуглДиск</content>
+  <content>Catalog.УчетныеДанные</content>
+  <content>Report.ГруппыДоставкиИстроияОбменов</content>
+  <content>CommonCommand.ПанельОтчетовОбменДанными</content>
+  <content>Report.ВозмещениеЗаРазборНаЕРЦ</content>
+  <content>Report.ОтчетПоБесплатнойВыдаче</content>
+  <content>Report.ОтчетПоКурьерскойДоставке</content>
+  <subsystems>ПочтаРоссии</subsystems>
+  <subsystems>СП</subsystems>
+  <subsystems>ЧатСП</subsystems>
+  <subsystems>ДеловыеЛинии</subsystems>
+  <subsystems>DPD</subsystems>
+  <subsystems>гДокументы</subsystems>
+  <subsystems>д1Регистры</subsystems>
+  <subsystems>МобильныйКлиент</subsystems>
+  <subsystems>СинхронизацияДанных</subsystems>
+</mdclass:Subsystem>

@@ -329,10 +329,10 @@
         <types>DocumentRef.Движение</types>
         <types>DocumentRef.ФормированиеКоробки</types>
         <types>DocumentRef.ОтправлениеТранзита</types>
+        <types>DocumentRef.ЗаказыДляТранзита</types>
         <types>DocumentRef.Приходная</types>
         <types>DocumentRef.ПоступлениеПристроя</types>
         <types>DocumentRef.РазборКоробки</types>
-        <types>DocumentRef.ЗаказыДляТранзита</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69719362-ab93-48ad-865a-d12c0a25a587">
+  <producedTypes>
+    <objectType typeId="6b88d342-3c8b-4a57-b199-fd9a2a8b94cd" valueTypeId="64be27d1-6580-45eb-b39c-c25528fabbf7"/>
+    <managerType typeId="34420651-ac68-4927-b3cf-9e53383446fd" valueTypeId="9deb985c-58a9-4d45-983d-81943c352c88"/>
+  </producedTypes>
+  <name>ОтчетПоТарифам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по тарифам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоТарифам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет показыывает тарифы актуальные на дату отчета</value>
+  </explanation>
+  <templates uuid="b8b1924d-658a-48c4-bd49-901b0bc28cdd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

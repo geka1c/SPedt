@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59d512e2-9786-431a-a70f-560604526eab">
+  <name>SPMobile</name>
+  <synonym>
+    <key>ru</key>
+    <value>SPMobile</value>
+  </synonym>
+  <namespace>SPMobile</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.mobileApi</value>
+  </xdtoPackages>
+  <descriptorFileName>SPMobile.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="3e14f126-78b2-4017-90d4-4d7e15661070">
+    <name>GetTranzitInvice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get tranzit invice</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>listInvoice.Invoice</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetTranzitInvice</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="bdc63324-58d4-4341-b5f8-713d3eec382f">
+      <name>BarCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Bar code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4727ec07-683f-4a50-b291-4b2d68102829">
+    <name>GetListInvoice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get list invoice</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>listInvoice</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetListInvoice</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="b8fbaf38-bb7f-4f2e-988d-c3bf43cbb017">
+      <name>Count</name>
+      <synonym>
+        <key>ru</key>
+        <value>Count</value>
+      </synonym>
+      <xdtoValueType>
+        <name>integer</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8f98a950-909f-41ec-b470-605acf7fd1af">
+      <name>type</name>
+      <synonym>
+        <key>ru</key>
+        <value>Type</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="e07c18b4-9d1d-49de-a831-0b83570937ec">
+    <name>docInvoice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Doc invoice</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>listInvoice.Invoice</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>getOrder</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="4ba49825-a37a-49cf-94cc-66a6d443664a">
+      <name>barCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Bar code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="ab3a1e12-b8d2-4213-8b77-52f04645c9eb">
+    <name>docInvoiceByUserId</name>
+    <synonym>
+      <key>ru</key>
+      <value>Doc invoice by user id</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>listInvoice.Invoice</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>getOrderByUserId</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="572ec1a6-19a3-40f5-ade1-bb8688675916">
+      <name>userId</name>
+      <synonym>
+        <key>ru</key>
+        <value>User id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>integer</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="6e2dcdaf-5480-4496-be6f-f5efbef30fd7">
+    <name>PostInvoice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Post invoice</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>responce.PostInvoice</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>postOrder</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ae886ab0-f382-44db-b39b-125472777a0d">
+      <name>userId</name>
+      <synonym>
+        <key>ru</key>
+        <value>User id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>integer</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="24e6a21a-65ed-440b-b63d-ff2ba9494abc">
+      <name>date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="5684efb7-7b50-4972-98d7-848c524b95ea">
+      <name>count</name>
+      <synonym>
+        <key>ru</key>
+        <value>Count</value>
+      </synonym>
+      <xdtoValueType>
+        <name>integer</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="a16bd071-4dbd-4387-a0eb-839d6b3ab719">
+      <name>sum</name>
+      <synonym>
+        <key>ru</key>
+        <value>Sum</value>
+      </synonym>
+      <xdtoValueType>
+        <name>float</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="44c462be-18ff-4c40-a036-e7e376ff633a">
+    <name>postIncome</name>
+    <synonym>
+      <key>ru</key>
+      <value>Post income</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>responce.PostIncome</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>postIncome</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8993f0f9-5fc3-4aef-ac1b-5fa8dfa19dd7">
+      <name>body</name>
+      <synonym>
+        <key>ru</key>
+        <value>Body</value>
+      </synonym>
+      <xdtoValueType>
+        <name>paramPostIncome</name>
+        <nsUri>mobileApi</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="5404bbfd-1276-4a6b-9902-689deb381db9">
+      <name>codeClirent</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code clirent</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="ba568a9b-44a0-44ea-991b-a7faaddd2706">
+    <name>getListUser</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get list user</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>listUser</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>getListUser</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="4d948c33-0e7c-4c87-80e3-f6d4b4f34830">
+      <name>search</name>
+      <synonym>
+        <key>ru</key>
+        <value>Search</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="c970addd-adc3-4473-9a8c-b9faa7dc9da1">
+    <name>сlientRegistration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сlient registration</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>responce.сlientRegistration</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>сlientRegistration</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="6b521f6b-8cca-472e-95db-1dffd42978cc">
+      <name>code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="307e4179-cea2-49e7-a502-774e58dbf278">
+      <name>id</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="70e15f21-1364-481b-963f-d6b42f70e520">
+    <name>сlientVerification</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сlient verification</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>responce.сlientRegistration</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>сlientVerification</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1c8bbf58-1dba-45ed-9647-a2f0e89bde0d">
+      <name>code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8e72db90-b55a-48cd-872a-76e74d4b307f">
+      <name>id</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="97d2fc29-4ada-485b-a840-33d7e8ad8871">
+    <name>catalogTariffs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Catalog tariffs</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>catalog.tariffs</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>catalogTariffs</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="3e234941-a269-44dc-b150-5db6a33b688e">
+    <name>catalogCells</name>
+    <synonym>
+      <key>ru</key>
+      <value>Catalog cells</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>catalog.cells</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>catalogCells</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="42214554-f0a3-419e-8118-a9ed52d9491b">
+    <name>catalogBranchs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Catalog branchs</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>catalog.branchs</name>
+      <nsUri>mobileApi</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>catalogBranchs</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="bd0ade2f-eb87-4594-b27e-6c7b41eb4190">
+    <name>historyOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>History order</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>historyOrder</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="6e3e59ba-3e82-4566-b2ba-8277a6493229">
+      <name>barcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Barcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

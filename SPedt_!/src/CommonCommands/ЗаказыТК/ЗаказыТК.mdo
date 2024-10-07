@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a543e43-89c9-4130-9ec7-9d2e78a75bf3">
+  <name>ЗаказыТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы ТК</value>
+  </synonym>
+  <group>CommandGroup.Справочники</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

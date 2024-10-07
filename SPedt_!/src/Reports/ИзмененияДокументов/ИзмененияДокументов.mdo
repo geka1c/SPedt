@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b949b103-bf69-4961-b599-92f8dceff28e">
+  <producedTypes>
+    <objectType typeId="762622c2-6c60-49d6-b01b-6da5336d2519" valueTypeId="6589b2a4-7cd7-4317-9af3-6c782cdc9120"/>
+    <managerType typeId="14ee43fc-6988-4409-bbe5-8f2b342baf2c" valueTypeId="4d1d4bba-3fc6-4f5a-ae00-e8a91ab0f889"/>
+  </producedTypes>
+  <name>ИзмененияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ИзмененияДокументов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <explanation>
+    <key>ru</key>
+    <value>История изменения документов ,
+(|что, когда, зачем).</value>
+  </explanation>
+  <forms uuid="63a578ef-6d03-420d-ab0c-22353131864e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e618f1c6-d249-48e4-a7fb-bf236aa483f4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

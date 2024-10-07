@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dbd6ea4-e8dc-49ec-b191-0404ea1f5d50">
+  <producedTypes>
+    <managerType typeId="1508cdf7-66d9-48dd-82cd-3202dd50dc69" valueTypeId="1a1c0173-afbb-4546-97e4-52e4fa57ede1"/>
+    <valueManagerType typeId="85b95f45-f6ca-4c00-829c-480f8854a8e6" valueTypeId="fc5ebc3d-c613-47c4-a37b-d0a3601e44d3"/>
+    <valueKeyType typeId="1b357cd7-9ee4-4721-86d7-49bbce729093" valueTypeId="1e39dfc5-20ba-4893-9dbd-b0ec941f93ea"/>
+  </producedTypes>
+  <name>ИспользоватьПередачуЗаказовНаТранзит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать передачу заказов на транзит</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

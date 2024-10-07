@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79c6ff86-1cc1-482e-a775-3f14919bf42f">
+  <name>ИспоьзоватьПризнакОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Испоьзовать признак оплаты</value>
+  </synonym>
+  <comment>При поступлении заказов ставим признак не оплачено, тогда при выдаче будет напоминание об оплате</comment>
+  <location>Constant.ИспользоватьПризнакОплаты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.Движение.TabularSection.Покупки.Attribute.Оплачен</content>
+  <content>Document.Приходная.TabularSection.Покупки.Attribute.Оплачен</content>
+  <content>Document.Приходная.TabularSection.Посылки.Attribute.Оплачен</content>
+  <content>Document.РазборКоробки.TabularSection.Покупки.Attribute.Оплачен</content>
+  <content>Document.РазборКоробки.TabularSection.Посылки.Attribute.Оплачен</content>
+  <content>Document.КорректировкаОстатков.TabularSection.Покупки.Attribute.Оплачен</content>
+</mdclass:FunctionalOption>

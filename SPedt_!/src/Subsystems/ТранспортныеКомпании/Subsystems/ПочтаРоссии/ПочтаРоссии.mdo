@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9dbbc90-449d-498d-b8e8-9ac7b51457f2">
+  <name>ПочтаРоссии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Почта россии</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>FunctionalOption.ПочтаРоссии</content>
+  <content>Document.ПоступлениеЗаказаПочтыРоссии</content>
+  <content>Catalog.ЗаказыТК</content>
+  <content>Constant.ПочтаРоссии</content>
+  <content>AccumulationRegister.ЗаказыТранспортныхКомпанийОплаты</content>
+  <content>Document.ПередачаЗаказовПочтаРоссии</content>
+  <content>Report.ЗаказыТранспортныхКомпаний</content>
+  <parentSubsystem>Subsystem.ТранспортныеКомпании</parentSubsystem>
+</mdclass:Subsystem>

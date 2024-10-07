@@ -277,7 +277,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ПочтовыеАдресаПолучателейСтрокаПоиска</source>
+        <source>ПочтовыеАдресаПолучателей</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -316,7 +316,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ПочтовыеАдресаПолучателейСостояниеПросмотра</source>
+        <source>ПочтовыеАдресаПолучателей</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -355,7 +355,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ПочтовыеАдресаПолучателейУправлениеПоиском</source>
+        <source>ПочтовыеАдресаПолучателей</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -776,7 +776,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ВложенияСтрокаПоиска</source>
+          <source>Вложения</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -815,7 +815,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ВложенияСостояниеПросмотра</source>
+          <source>Вложения</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -854,7 +854,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ВложенияУправлениеПоиском</source>
+          <source>Вложения</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

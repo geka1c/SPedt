@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73b58809-8ed3-4e7a-9ac3-e0b893cdff3d">
+  <producedTypes>
+    <managerType typeId="e0005d00-ca89-4bf9-9543-b7e86deb00c9" valueTypeId="298b3b41-9978-4ece-9881-cd14aab67ca4"/>
+    <valueManagerType typeId="71190a67-0b7d-4976-958b-7937dd173651" valueTypeId="42060490-af0a-4a2e-9f34-4b90838cd7d9"/>
+    <valueKeyType typeId="08f6f93b-fafb-4e8d-8c29-9289c4bbf5eb" valueTypeId="0f152e73-b6bf-410c-9f58-4435c9c3fc53"/>
+  </producedTypes>
+  <name>ОплатаQRкодом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата q rкодом</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>При установке в расходной появляется возможность оплатить заказ по QR коду</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

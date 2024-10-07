@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b8151e3-9128-4d6f-816f-c3270671759a">
+  <producedTypes>
+    <managerType typeId="427dac50-501f-4f7c-bf35-4fb87dc87427" valueTypeId="077dcc6d-eebb-4426-a956-7df79778b756"/>
+    <valueManagerType typeId="3546aac1-760c-4edc-a0ac-f6c6056cf176" valueTypeId="118b02f9-577e-4f0c-b6a3-4eb7efb58876"/>
+    <valueKeyType typeId="46f835c4-e837-4a13-b6c4-1b56d151a30e" valueTypeId="de405ebb-91e6-4665-9ebc-d0f5cffc261b"/>
+  </producedTypes>
+  <name>ПолучатьСтоимостьТранзитныхОтправлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получать стоимость транзитных отправлений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

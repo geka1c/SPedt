@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23df6d6b-a843-48c3-ab74-fe3bf02c9ead">
+  <producedTypes>
+    <selectionType typeId="9614ffa2-b112-4c1a-b0a7-66ec39c05a5f" valueTypeId="5ab21a46-e2d8-46b1-9bbc-953d3e2f3205"/>
+    <listType typeId="d25f7217-3ae1-4dad-ab55-2163cc761400" valueTypeId="90f38f10-dbe8-4a8a-8c9a-65a354813d73"/>
+    <managerType typeId="7092b954-a8dd-436e-8304-240669a515b2" valueTypeId="ad1b95ee-7405-439e-bbae-f6a7c431a3e6"/>
+    <recordSetType typeId="974fb815-7eba-4af5-a540-4ca708259976" valueTypeId="e18831df-3934-4c80-a608-2da189c697a8"/>
+    <recordKeyType typeId="62e7d812-5df4-40a5-9726-b565cee220b9" valueTypeId="9a550b19-c91c-49dd-9938-7e6d0dd3f043"/>
+    <recordType typeId="8824860c-45cc-417f-ba51-735a10bef8be" valueTypeId="932751e8-8698-4162-9334-0b8fe3a19638"/>
+  </producedTypes>
+  <name>ВзаиморасчетыСОрганизаторами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с организаторами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ab7cc5ec-ad49-47da-a475-6a3384e55c7a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="4ae5bb59-b0e4-43d0-b218-e27914912b22">
+    <name>Организатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организатор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организаторы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="268fef59-8e3f-448e-8bbf-49a331832d6f">
+    <name>ДокументРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ расчетов</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказыДляТранзита</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

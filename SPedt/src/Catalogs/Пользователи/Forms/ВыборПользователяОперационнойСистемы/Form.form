@@ -196,7 +196,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ТаблицаДоменовSearchString</source>
+          <source>ТаблицаДоменов</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -235,7 +235,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ТаблицаДоменовViewStatus</source>
+          <source>ТаблицаДоменов</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -274,7 +274,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ТаблицаДоменовSearchControl</source>
+          <source>ТаблицаДоменов</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -645,7 +645,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ТаблицаПользователейДоменаSearchString</source>
+          <source>ТаблицаПользователейДомена</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -684,7 +684,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ТаблицаПользователейДоменаViewStatus</source>
+          <source>ТаблицаПользователейДомена</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -723,7 +723,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ТаблицаПользователейДоменаSearchControl</source>
+          <source>ТаблицаПользователейДомена</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

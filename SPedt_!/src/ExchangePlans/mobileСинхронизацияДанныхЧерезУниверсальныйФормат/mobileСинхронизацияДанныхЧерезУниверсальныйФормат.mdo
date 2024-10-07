@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3c1f6b4-1760-431b-8be0-f88bbf6bc33c" thisNode="880194a4-8145-47fb-8713-bcdc93af1300">
+  <producedTypes>
+    <objectType typeId="464039e4-b11e-4a66-a1b3-1a07e1b10ac1" valueTypeId="6d509f8d-3e67-470d-b873-7a6b9c27e611"/>
+    <refType typeId="f9a92cd3-2d98-4abe-bf60-9c00ac82ce58" valueTypeId="192cd6e1-03df-4f6a-ba1e-d9a89916e561"/>
+    <selectionType typeId="04d8975c-7ba2-48ab-a192-f7d83f9f5e09" valueTypeId="1a2778e7-c7db-4b69-9018-792e9d8cabcb"/>
+    <listType typeId="9bf440c7-580f-407c-ae25-ee6608a0a022" valueTypeId="727aa383-c030-4234-9687-254e89e1ce4a"/>
+    <managerType typeId="3d709c9c-da22-4a3b-85b3-c32d8c1831b1" valueTypeId="f7af4071-f0a3-4cfa-bdf6-e4d51294ce53"/>
+  </producedTypes>
+  <name>mobileСинхронизацияДанныхЧерезУниверсальныйФормат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile синхронизация данных через универсальный формат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.mobileСинхронизацияДанныхЧерезУниверсальныйФормат.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.mobileСинхронизацияДанныхЧерезУниверсальныйФормат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.МестаХранения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Габариты</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8d9919fb-5817-4907-96e6-097d22bc1200">
+    <name>ВерсияФорматаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата обмена</value>
+    </synonym>
+    <comment>Версия формата обмена в формате ХХ.ХХ.ХХ.ХХ</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата, выбранная для данного узла плана обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ExchangePlan>

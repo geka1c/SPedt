@@ -801,7 +801,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>ОтветыКолонкиОтветыВСтрокахИКолонкахSearchString</source>
+                <source>ОтветыКолонкиОтветыВСтрокахИКолонках</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -840,7 +840,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>ОтветыКолонкиОтветыВСтрокахИКолонкахViewStatus</source>
+                <source>ОтветыКолонкиОтветыВСтрокахИКолонках</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -879,7 +879,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>ОтветыКолонкиОтветыВСтрокахИКолонкахSearchControl</source>
+                <source>ОтветыКолонкиОтветыВСтрокахИКолонках</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -1175,7 +1175,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>ОтветыСтрокиОтветыВСтрокахИКолонкахSearchString</source>
+                <source>ОтветыСтрокиОтветыВСтрокахИКолонках</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -1214,7 +1214,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>ОтветыСтрокиОтветыВСтрокахИКолонкахViewStatus</source>
+                <source>ОтветыСтрокиОтветыВСтрокахИКолонках</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -1253,7 +1253,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>ОтветыСтрокиОтветыВСтрокахИКолонкахSearchControl</source>
+                <source>ОтветыСтрокиОтветыВСтрокахИКолонках</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -1535,7 +1535,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ВопросыSearchString</source>
+              <source>Вопросы</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1574,7 +1574,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ВопросыViewStatus</source>
+              <source>Вопросы</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1613,7 +1613,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ВопросыSearchControl</source>
+              <source>Вопросы</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1941,7 +1941,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ОтветыКолонкиОтветыВКолонкахSearchString</source>
+              <source>ОтветыКолонкиОтветыВКолонках</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1980,7 +1980,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ОтветыКолонкиОтветыВКолонкахViewStatus</source>
+              <source>ОтветыКолонкиОтветыВКолонках</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2019,7 +2019,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ОтветыКолонкиОтветыВКолонкахSearchControl</source>
+              <source>ОтветыКолонкиОтветыВКолонках</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2397,7 +2397,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ОтветыСтрокиОтветыВСтрокахSearchString</source>
+              <source>ОтветыСтрокиОтветыВСтроках</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2436,7 +2436,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ОтветыСтрокиОтветыВСтрокахViewStatus</source>
+              <source>ОтветыСтрокиОтветыВСтроках</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2475,7 +2475,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ОтветыСтрокиОтветыВСтрокахSearchControl</source>
+              <source>ОтветыСтрокиОтветыВСтроках</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2703,7 +2703,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>РезультирующаяТаблицаSearchString</source>
+            <source>РезультирующаяТаблица</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2742,7 +2742,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>РезультирующаяТаблицаViewStatus</source>
+            <source>РезультирующаяТаблица</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2781,7 +2781,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>РезультирующаяТаблицаSearchControl</source>
+            <source>РезультирующаяТаблица</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
